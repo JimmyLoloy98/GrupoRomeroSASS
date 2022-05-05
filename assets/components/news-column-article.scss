@@ -1,0 +1,38 @@
+.article-column{
+  width: 30%;
+  h2{
+    text-transform: capitalize;
+  }
+  img{
+    margin-top: 1rem;
+  }
+  p{
+    font-weight: bold;
+  }
+  ul{
+    margin-left: .8rem;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    li{
+      color: $primary;
+      list-style: disc;
+      span{
+        font-size: .9rem;
+        color: #000;
+      }
+    }
+  }
+  a{
+    display: flex;
+    justify-content: flex-end;
+    color: $primary;
+    i{ margin-left: .5rem;}
+    // -> sector-news.scss
+  }
+
+  &:not(:nth-child(1)){
+    border-right: 2px solid #000;
+    padding-right: 1.2rem;
+  }
+}

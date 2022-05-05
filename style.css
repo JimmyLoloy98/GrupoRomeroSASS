@@ -17,6 +17,12 @@ a {
   color: inherit;
 }
 
+i {
+  line-height: 0;
+  padding: 0;
+  margin: 0;
+}
+
 ul, ol {
   padding: 0;
   list-style: none;
@@ -26,6 +32,12 @@ button {
   border: none;
   outline: none;
   cursor: pointer;
+  background-color: transparent;
+}
+
+select {
+  border: none;
+  outline: none;
   background-color: transparent;
 }
 
@@ -53,6 +65,121 @@ button {
 }
 .rom-header .content-header .logo img {
   width: 250px;
+}
+
+.rom-section {
+  display: flex;
+  flex-direction: column;
+}
+.rom-section .section-main {
+  display: flex;
+  gap: 2rem;
+}
+.rom-section .section-main > article {
+  width: 70%;
+}
+.rom-section .section-main > article .content-article-columns {
+  margin: 3rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.rom-section .section-main > article .content-article-columns a {
+  display: flex;
+  align-items: center;
+}
+.rom-section .section-main > article .content-article-columns a i {
+  color: #da5b3e;
+}
+.rom-section .section-main > aside {
+  width: 30%;
+  background-color: #2f2f2f;
+  border-radius: 36px;
+  color: #fff;
+  padding: 2rem 0;
+}
+.rom-section .section-main > aside .body-news {
+  padding: 0 2.5rem;
+}
+.rom-section .section-main > aside .body-news div {
+  margin-bottom: 1.5rem;
+}
+.rom-section .section-main > aside .body-news div img {
+  border-radius: 16px;
+}
+.rom-section .section-main > aside .body-news div p {
+  margin: 0.5rem 0;
+  font-size: 1.115rem;
+}
+.rom-section .section-main > aside .body-news div span {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+.rom-section .section-foot {
+  background-color: #3c3c3c;
+  border-radius: 20px;
+  width: 100%;
+  display: flex;
+  margin: 2rem 0;
+  padding: 1.5rem 0;
+  align-items: center;
+  gap: 2rem;
+}
+.rom-section .section-foot .foot-left {
+  width: 20%;
+}
+.rom-section .section-foot .foot-left select {
+  margin-left: 16%;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 0.4rem 0.6rem;
+  color: #fff;
+}
+.rom-section .section-foot .foot-left select option {
+  color: #000;
+}
+.rom-section .section-foot .slider-new {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+.rom-section .section-foot .slider-new i {
+  color: #da5b3e;
+}
+.rom-section .section-foot .slider-new img {
+  height: 100%;
+}
+.rom-section .title {
+  display: flex;
+  border-bottom: 3px solid black;
+  text-transform: capitalize;
+}
+.rom-section .title h2 {
+  background: black;
+  color: white;
+  padding: 0.5rem 2rem;
+}
+.rom-section .title3 {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  color: #000;
+  margin-bottom: 1.5rem;
+  padding: 0.4rem 1.2rem;
+  width: 80%;
+}
+.rom-section .title3 i {
+  font-size: 2rem;
+  margin-right: 1.2rem;
+}
+.rom-section .title3 h2 {
+  text-transform: capitalize;
+}
+.rom-section .content {
+  margin-bottom: 1rem;
 }
 
 .rom-nav {
@@ -216,6 +343,7 @@ button {
   display: flex;
   justify-content: flex-end;
   gap: 0.6rem;
+  color: #da5b3e;
 }
 
 .brand-competencies-slide {
@@ -284,7 +412,6 @@ button {
 }
 
 .content-article {
-  margin-top: 3rem;
   margin-bottom: 3rem;
 }
 .content-article .pricing-content {
@@ -438,6 +565,45 @@ button {
     }
   }
 } */
+.article-column {
+  width: 30%;
+}
+.article-column h2 {
+  text-transform: capitalize;
+}
+.article-column img {
+  margin-top: 1rem;
+}
+.article-column p {
+  font-weight: bold;
+}
+.article-column ul {
+  margin-left: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.article-column ul li {
+  color: #da5b3e;
+  list-style: disc;
+}
+.article-column ul li span {
+  font-size: 0.9rem;
+  color: #000;
+}
+.article-column a {
+  display: flex;
+  justify-content: flex-end;
+  color: #da5b3e;
+}
+.article-column a i {
+  margin-left: 0.5rem;
+}
+.article-column:not(:nth-child(1)) {
+  border-right: 2px solid #000;
+  padding-right: 1.2rem;
+}
+
 footer .footer-head {
   display: flex;
   flex-direction: column;
