@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    padding-top: 3rem;
+    padding-left: 4rem;
+}
+.main h1{
+    font-size: 3rem;
+}
+
+.dropdown{
+    padding-top: 2rem;
+    padding-left: 61rem;
+    position: relative;
+}
+.select-drop{
+    width: 12rem;
+    height: 3rem;
+    border-radius: 0.6rem;
+    font-size: 1.4rem;
+    background-color: gainsboro;
+    color:gray;
+    border-color: white;
+    outline: none;
+
+}
+.select-drop option{
+    text-align: center;
+}
+
+
+.div-container{
+    margin: 0 auto;
+}
+
+.section-1{
+    margin: 2rem;
+    padding-left: 3rem;
+}
+
+.section-1 h2{
+    font-size: 2.5rem;
+}
+
+.section-2{
+    margin: 1.5rem;
+}
+
+.section-2 h3{
+    font-size: 1.8rem;
+    text-align: justify;
+    margin-top: 1.5rem;
+}
+
+.div-1{
+    padding-left: 3rem;
+    margin-top: 6rem;
+    width: 32rem;
+}
+
+.div-1 img{
+    width: 28rem;
+    height: 14rem;
+    border-radius: 0.3rem;
+}
+
+.div-1 time{
+    position: absolute;
+    margin-top: 0.5rem;
+    color: gray;
+}
+.div-2{
+    position: relative;
+    padding-left: 38rem;
+    margin-top: -25rem;
+    width: 64rem;
+}
+
+.div-2 h3{
+    margin: 1rem;
+    font-size: 2rem;
+}
+.div-2 hr{
+    margin: 1rem;
+    width: 18rem;
+}
+.div-2 ul{
+    margin-top: -4rem;
+    padding-left: 1.2rem;
+}
+.div-2 li{
+    margin-top: 5rem;
+    color: orangered;
+}
+
+.div-2 p{
+    position: absolute;
+    display: block;
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-top: 0.5rem;
+    margin: 1rem;
+    color: black;
+}
+
+.div-2 time{
+    position: absolute;
+    font-size: 0.8rem;
+    margin-top: 4.5rem;
+    padding-left: 1rem;
+    color: gray;
+}
+.div-3{
+    margin-top: 10rem;
+}
+.div-3 div{
+    position: absolute;
+    padding-left: 32rem;
+    margin-top: -1.4rem;
+}
+
+.div-3 div button{
+    width: 20rem;
+    height: 2rem;
+    font-size: 1rem;
+    color: orangered;
+    outline: none;
+    border: none;
+    background-color: white;
+}
+
+
+
