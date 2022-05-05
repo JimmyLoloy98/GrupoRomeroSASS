@@ -52,8 +52,9 @@ select {
   }
 }
 .rom-header {
-  background: #da5b3e;
+  background: #BE4439;
   text-transform: capitalize;
+  color: #fff;
 }
 .rom-header .content-header {
   display: flex;
@@ -88,7 +89,7 @@ select {
   align-items: center;
 }
 .rom-section .section-main > article .content-article-columns a i {
-  color: #da5b3e;
+  color: #BE4439;
 }
 .rom-section .section-main > aside {
   width: 30%;
@@ -147,7 +148,7 @@ select {
   padding: 0 1rem;
 }
 .rom-section .section-foot .slider-new i {
-  color: #da5b3e;
+  color: #BE4439;
 }
 .rom-section .section-foot .slider-new img {
   height: 100%;
@@ -338,12 +339,15 @@ select {
   align-items: center;
   margin-bottom: 1rem;
 }
+.brand-activities-slide i {
+  color: #BE4439;
+}
 
 .view-all-button {
   display: flex;
   justify-content: flex-end;
   gap: 0.6rem;
-  color: #da5b3e;
+  color: #BE4439;
 }
 
 .brand-competencies-slide {
@@ -352,6 +356,9 @@ select {
   justify-content: center;
   align-items: center;
   margin: 2rem 0;
+}
+.brand-competencies-slide i {
+  color: #BE4439;
 }
 
 .rom-card-new {
@@ -373,7 +380,7 @@ select {
 .rom-card-new .rom-card-body .rom-brand {
   display: flex;
   color: white;
-  background-color: #da5b3e;
+  background-color: #BE4439;
   padding: 0.4rem 1rem;
 }
 .rom-card-new .rom-card-body h3 {
@@ -395,7 +402,7 @@ select {
 }
 .rom-card-competencies .rom-card-body {
   padding: 1.5rem 1rem;
-  background-color: #da5b3e;
+  background-color: #BE4439;
   border-radius: 20px;
 }
 .rom-card-competencies .rom-card-body p {
@@ -422,7 +429,7 @@ select {
   margin-top: 1.5rem;
 }
 .content-article .view-all-button {
-  color: #da5b3e;
+  color: #BE4439;
 }
 
 .column1-1 {
@@ -584,7 +591,7 @@ select {
   gap: 0.8rem;
 }
 .article-column ul li {
-  color: #da5b3e;
+  color: #BE4439;
   list-style: disc;
 }
 .article-column ul li span {
@@ -594,7 +601,7 @@ select {
 .article-column a {
   display: flex;
   justify-content: flex-end;
-  color: #da5b3e;
+  color: #BE4439;
 }
 .article-column a i {
   margin-left: 0.5rem;
