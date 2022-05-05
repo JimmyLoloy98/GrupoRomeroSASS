@@ -1,0 +1,27 @@
+.rom-card-competencies{
+	max-width: 240px;
+	display: flex;
+	flex-direction: column;
+  span{
+    margin-left: 1rem;
+    margin-bottom: .2rem;
+    color: #555;
+  }
+  .rom-card-body{
+    padding: 1.5rem 1rem;
+    background-color: $primary;
+    border-radius: 20px;
+    p{
+      margin: 0;
+      font-size: 1.4rem;
+      color: #fff;
+    }
+    a{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: .8rem;
+      color: #fff;
+    }
+  }
+}

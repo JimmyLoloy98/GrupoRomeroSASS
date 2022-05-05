@@ -1,0 +1,15 @@
+{
+  "name": "gruporomero",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch assets/style.scss style.css"
+  },
+  "author": "pavel leonardo mansilla goyas",
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.51.0"
+  }
+}

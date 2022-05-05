@@ -1,0 +1,54 @@
+.rom-last-news{
+	display: flex;
+	gap: 3rem;
+	.slider-news{
+		img{
+			object-fit: cover;
+			border-radius: 20px;
+			// height: 80%;
+		}
+		figcaption{
+			position: absolute;
+			bottom: 8.9rem;
+			border-radius: 0 20px 0 20px;
+			max-width: 32%;
+			background-color: #000;
+			opacity: 0.6;
+			padding: .4rem 1rem;
+			span{
+				color: #fff;
+				font-size: 1.8rem;
+			}
+		}
+		span{
+			display: flex;
+			justify-content: center;
+			font-size: 2.5rem;
+			margin: 0 auto;
+		}
+	}
+	.list-news{
+		ul{
+			height: 70%;
+			padding-left: .5rem;
+			margin-top: 1.5rem;
+			overflow-y: auto;
+			li{
+				margin-left: .4rem;
+				list-style: disc;
+				// &::before{
+				// 	content: "\2022";  
+				// 	color: orangered; 
+				// }
+				> p{
+					margin-bottom: .4rem;
+				}
+				span{
+					padding-top: -2rem;
+					font-size: .8rem;
+					color: #999;
+				}
+			}
+		}
+	}
+}

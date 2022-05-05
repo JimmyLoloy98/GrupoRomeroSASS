@@ -1,0 +1,19 @@
+.rom-header{
+	background: $primary;
+	text-transform: capitalize;
+	// position: sticky;
+	// top: 0;
+	.content-header{
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: center;
+		gap: 2rem;
+		padding: 1rem 2rem;
+		.logo{
+			img{
+				width: 250px;
+			}
+		}
+	}
+}
