@@ -1,10 +1,14 @@
-.pricing-content{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 4rem;
-  margin-top: 1.5rem;
-}
-.view-all-button{
-  color: $primary;
+.content-article{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  .pricing-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 1.5rem;
+  }
+  .view-all-button{
+    color: $primary;
+  }
 }
