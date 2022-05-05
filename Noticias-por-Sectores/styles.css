@@ -5,26 +5,26 @@
 }
 /* primer parte */
 .div-container{
-    padding-top: 3rem;
-    padding-left: 4rem;
+    padding-top: 2rem;
+    padding-left: 5rem;
 }
 .div-container h1{
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 0.5rem;
 }
 
 .dropdown{
-    padding-top: 2rem;
-    padding-left: 61rem;
-    position: relative;
+    margin-top: 2.5rem;
+    padding-left: 59.5rem;
+    position: absolute;
 }
 .select-drop{
-    width: 12rem;
-    height: 3rem;
+    width: 14rem;
+    height: 2.8rem;
     border-radius: 0.6rem;
     font-size: 1.4rem;
     background-color: gainsboro;
-    color:gray;
+    color:grey;
     border-color: white;
     outline: none;
 
@@ -35,18 +35,19 @@
 
 
 .div-content{
-    margin: 2rem;
-    padding-left: 3rem;
+    width: 88%;
+    margin-top: 5rem;
+    padding-left: 5rem;
 }
 
 .div-content h2{
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .div-1{
-    padding-left: 3rem;
-    margin-top: 6rem;
-    width: 32rem;
+    padding-left: 4rem;
+    margin-top: 5.5rem;
+    width: 31.5rem;
 }
 
 .div-1 img{
@@ -56,13 +57,13 @@
 }
 
 .div-1 h3{
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     text-align: justify;
     margin-top: 1.5rem;
 }
 
 
-.div-1 time{
+.div-1 span{
     position: absolute;
     margin-top: 0.5rem;
     color: gray;
@@ -71,18 +72,18 @@
 
 .div-2{
     position: relative;
-    padding-left: 38rem;
+    padding-left: 40rem;
     margin-top: -25rem;
-    width: 64rem;
+    width: 66rem;
 }
 
 .div-2 h3{
     margin: 1rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 .div-2 hr{
     margin: 1rem;
-    width: 18rem;
+    width: 15rem;
 }
 .div-2 ul{
     margin-top: -4rem;
@@ -103,7 +104,7 @@
     color: black;
 }
 
-.div-2 time{
+.div-2 span{
     position: absolute;
     font-size: 0.8rem;
     margin-top: 4.5rem;
@@ -114,17 +115,18 @@
 .div-below{
     margin-top: 10rem;
 
+
 }
 
 .div-below div{
     position: absolute;
-    padding-left: 31rem;
+    padding-left: 37%;
     margin-top: -1.4rem;
 }
 
 .div-below div button{
-    width: 20rem;
-    height: 2rem;
+    width: 23rem;
+    height: 2.5rem;
     font-size: 1rem;
     color: orangered;
     outline: none;
