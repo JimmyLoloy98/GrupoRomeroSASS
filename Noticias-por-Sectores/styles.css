@@ -3,12 +3,12 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-.main{
+/* primer parte */
+.div-container{
     padding-top: 3rem;
     padding-left: 4rem;
 }
-.main h1{
+.div-container h1{
     font-size: 3rem;
 }
 
@@ -33,27 +33,13 @@
 }
 
 
-.div-container{
-    margin: 0 auto;
-}
-
-.section-1{
+.div-content{
     margin: 2rem;
     padding-left: 3rem;
 }
 
-.section-1 h2{
+.div-content h2{
     font-size: 2.5rem;
-}
-
-.section-2{
-    margin: 1.5rem;
-}
-
-.section-2 h3{
-    font-size: 1.8rem;
-    text-align: justify;
-    margin-top: 1.5rem;
 }
 
 .div-1{
@@ -68,11 +54,20 @@
     border-radius: 0.3rem;
 }
 
+.div-1 h3{
+    font-size: 1.8rem;
+    text-align: justify;
+    margin-top: 1.5rem;
+}
+
+
 .div-1 time{
     position: absolute;
     margin-top: 0.5rem;
     color: gray;
 }
+
+
 .div-2{
     position: relative;
     padding-left: 38rem;
@@ -114,16 +109,18 @@
     padding-left: 1rem;
     color: gray;
 }
-.div-3{
+
+.div-below{
     margin-top: 10rem;
 }
-.div-3 div{
+
+.div-below div{
     position: absolute;
-    padding-left: 32rem;
+    padding-left: 31rem;
     margin-top: -1.4rem;
 }
 
-.div-3 div button{
+.div-below div button{
     width: 20rem;
     height: 2rem;
     font-size: 1rem;
