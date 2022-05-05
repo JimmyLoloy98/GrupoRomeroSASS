@@ -10,6 +10,7 @@
 }
 .div-container h1{
     font-size: 3rem;
+    margin-bottom: 0.5rem;
 }
 
 .dropdown{
@@ -112,6 +113,7 @@
 
 .div-below{
     margin-top: 10rem;
+
 }
 
 .div-below div{
