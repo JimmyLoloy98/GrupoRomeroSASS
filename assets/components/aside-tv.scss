@@ -1,0 +1,24 @@
+.aside-tv{
+  width: 30%;
+  background-color: #2f2f2f;
+  border-radius: 36px;
+  color: #fff;
+  padding: 2rem 0;
+  .body-news{
+    padding: 0 2.5rem;
+    div{
+      margin-bottom: 1.5rem;
+      img{
+        border-radius: 16px;
+      }
+      p{
+        margin: .5rem 0;
+        font-size: 1.115rem;
+      }
+      span{
+        font-size: .9rem;
+        color: #ccc;
+      }
+    }
+  }
+}

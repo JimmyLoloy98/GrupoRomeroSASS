@@ -5,11 +5,20 @@
   }
   img{
     margin-top: 1rem;
+    border-radius: 12px;
   }
   p{
     font-weight: bold;
+    margin-bottom: 0;
+  }
+  span{
+    display: block;
+    font-size: .9rem;
+    color: #888;
+    margin-top: .4rem;
   }
   ul{
+    margin-top: 1rem;
     margin-left: .8rem;
     display: flex;
     flex-direction: column;
@@ -17,7 +26,8 @@
     li{
       color: $primary;
       list-style: disc;
-      span{
+      p{
+        font-weight: 500;
         font-size: .9rem;
         color: #000;
       }
@@ -31,7 +41,7 @@
     // -> sector-news.scss
   }
 
-  &:not(:nth-child(1)){
+  &:not(:nth-child(0)){
     border-right: 2px solid #000;
     padding-right: 1.2rem;
   }
