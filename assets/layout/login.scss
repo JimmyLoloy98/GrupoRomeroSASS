@@ -5,7 +5,6 @@
     width: 60%;
     margin: 0;
     img{
-      // width: 100%;
       height: 99.53vh;
     }
   }
@@ -26,14 +25,15 @@
       padding: 2.2rem 0;
       h1{
         font-size: 1.8rem;
+        font-weight: 500;
         margin-bottom: .8rem;
       }
     }
     section{
-      padding: 2.2rem;
+      padding: 1.6rem 2rem;
+      padding-bottom: 0;
       display: flex;
       flex-direction: column;
-      align-items: center;
       > div{
         width: 100%;
         display: flex;
@@ -46,23 +46,51 @@
       }
       > span{
         text-align: center;
-        margin: 2.4rem 3rem;
+        margin: 1.6rem 3rem;
+        font-size: .9rem;
       }
       > form{
-        input{
-          padding: .8rem;
+        .caption-text{
+          font-size: .85rem;
         }
-        button{
+        .caption-text-center{
           display: block;
-          text-transform: uppercase;
-          width: 100%;
-          padding: 1rem 0;
-          border-radius: 8px;
-          background-color: $primary;
-          color: #fff;
+          text-align: center;
         }
-        caption{
-          // font-size: .5rem;
+        .container-form{
+          display: flex;
+          flex-direction: column;
+          margin-top: .8rem;
+          gap: .6rem;
+          input{
+            padding: .68rem 1rem;
+            border-radius: 12px;
+          }
+          .container-pass-input{
+            display: inline-flex;
+            align-items: center;
+            > input{
+              width: 60%;
+              margin-right: 1rem;
+            }
+          }
+          .forget-pass{
+            display: inline;
+            font-size: .8rem;
+            color: #666;
+            margin-left: 1rem;
+          }
+          button{
+            display: block;
+            text-transform: uppercase;
+            width: 100%;
+            padding: .8rem 0;
+            border-radius: 8px;
+            background-color: $primary;
+            color: #fff;
+            margin-top: .6rem;
+            margin-bottom: 1rem;
+          }
         }
       }
     }
