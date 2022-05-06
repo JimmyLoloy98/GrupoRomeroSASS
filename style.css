@@ -18,6 +18,11 @@ a {
   color: inherit;
 }
 
+input {
+  border: 2px solid #888;
+  outline: none;
+}
+
 i {
   line-height: 0;
   padding: 0;
@@ -136,6 +141,87 @@ select {
 }
 .rom-section .content {
   margin-bottom: 1rem;
+}
+
+.wrapper figure {
+  width: 60%;
+  margin: 0;
+}
+.wrapper figure img {
+  height: 99.53vh;
+}
+.wrapper main {
+  width: 40%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  font-family: "Lato", sans-serif;
+}
+.wrapper main header {
+  background-color: #222;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.2rem 0;
+}
+.wrapper main header h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+.wrapper main section {
+  padding: 2.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrapper main section > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.wrapper main section > div button {
+  padding: 0.8rem 4.6rem;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+}
+.wrapper main section > div button:hover {
+  color: #BE4439;
+}
+.wrapper main section > span {
+  text-align: center;
+  margin: 2.4rem 3rem;
+}
+.wrapper main section > form input {
+  padding: 0.8rem;
+}
+.wrapper main section > form button {
+  display: block;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 1rem 0;
+  border-radius: 8px;
+  background-color: #BE4439;
+  color: #fff;
+}
+.wrapper main footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  padding: 1rem 0;
+  margin: 0 2.2rem;
+  margin-top: 1.5rem;
+  border-top: 1px solid #888;
+}
+.wrapper main footer span {
+  color: #666;
+  text-transform: uppercase;
+  font-size: 0.7rem;
 }
 
 .rom-nav {
@@ -728,6 +814,7 @@ footer .footer-body .footer-body-column2 ul {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  text-transform: capitalize;
 }
 
 /*# sourceMappingURL=style.css.map */
