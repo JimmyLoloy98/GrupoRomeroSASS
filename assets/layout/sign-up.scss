@@ -1,0 +1,12 @@
+.header{
+  padding: 0;
+  margin: 0;
+}
+.two-inputs-inline{
+  display: flex;
+  justify-content: space-between;
+  gap: .8rem;
+  input{
+    width: 50%;
+  }
+}
