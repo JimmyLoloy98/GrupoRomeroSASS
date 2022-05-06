@@ -1,0 +1,33 @@
+.aside-opinion{
+  width: 30%;
+  background-color: #E5E5E5;
+  border-radius: 36px;
+  padding: 2rem 0 0;
+  .content-aside{
+    padding: 2rem 1rem 0;
+    .overflow-vertical{
+      max-height: 465px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: .25rem;
+      // content-aside-opinion.scss
+      &::-webkit-scrollbar{
+        width: 6px;
+        border-radius: 6px;
+        background: #ccc;
+      }
+      &::-webkit-scrollbar-thumb{
+        border-radius: 6px;
+        background: #555;
+      }
+    }
+    a{
+      display: flex;
+      justify-content: flex-end;
+      color: $primary;
+      margin-top: 1.5rem;
+      i{ margin-left: .5rem; }
+    }
+  }
+}

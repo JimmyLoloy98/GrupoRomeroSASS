@@ -1,0 +1,25 @@
+.wrapper-figure{
+  position: relative;
+  display: flex;
+  margin-top: 1rem;
+  margin-left: 4rem;
+  margin-right: .6rem;
+  img{
+    position: absolute;
+    object-fit: cover;
+    height: 120%;
+    width: 105px;
+    left: -4rem;
+    top: -.5rem;
+    border-radius: 50%;
+  }
+  figcaption{
+    // background-color: orange;
+    padding: 1rem 1rem 1rem 3.5rem;
+    border-radius: 20px;
+    font-weight: bold;
+    span{
+      font-weight: 400;
+    }
+  }
+}
