@@ -11,7 +11,7 @@
   }
   span{
     font-size: .9rem;
-    color: #888;
+    color: $gray-text;
   }
 }
 .column2{
@@ -21,7 +21,7 @@
     flex-direction: column;
     span{
       font-size: .8rem;
-      color: #888;
+      color: $gray-text;
       margin-bottom: .4rem;
     }
     img{
@@ -44,7 +44,7 @@
       }
       span{
         margin-left: .6rem;
-        color: #888;
+        color: $gray-text;
         font-size: .8rem;
       }
     }

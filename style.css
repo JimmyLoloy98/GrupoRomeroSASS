@@ -101,7 +101,7 @@ select {
   justify-content: space-evenly;
 }
 .rom-section .section-foot {
-  background-color: #3c3c3c;
+  background-color: #312f30;
   border-radius: 20px;
   width: 100%;
   display: flex;
@@ -160,7 +160,7 @@ select {
   font-family: "Lato", sans-serif;
 }
 .wrapper main header {
-  background-color: #222;
+  background-color: #4d4d4d;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -223,7 +223,7 @@ select {
 .wrapper main section > form .container-form .forget-pass {
   display: inline;
   font-size: 0.8rem;
-  color: #666;
+  color: #c1c1c1;
   margin-left: 1rem;
 }
 .wrapper main section > form .container-form button {
@@ -248,10 +248,10 @@ select {
   padding: 0.745rem 0;
   margin: 0 2.2rem;
   margin-top: 1.5rem;
-  border-top: 1px solid #888;
+  border-top: 1px solid #4d4d4d;
 }
 .wrapper main footer > a {
-  color: #666;
+  color: #4d4d4d;
   text-transform: uppercase;
   font-size: 0.7rem;
 }
@@ -271,8 +271,8 @@ select {
 }
 
 .rom-nav {
-  background: black;
-  color: white;
+  background: #312f30;
+  color: #ffffff;
   text-transform: uppercase;
   display: flex;
   justify-content: center;
@@ -296,16 +296,16 @@ select {
   justify-content: space-evenly;
   padding: 1rem;
   margin-bottom: 2rem;
-  background-color: #ececec;
+  background-color: #e5e5e5;
 }
 
 .rom-section .title {
   display: flex;
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid #312f30;
   text-transform: capitalize;
 }
 .rom-section .title h2 {
-  background: black;
+  background: #312f30;
   color: white;
   padding: 0.5rem 2rem;
 }
@@ -341,7 +341,7 @@ select {
   text-transform: capitalize;
 }
 .rom-section .title4 h2 {
-  background: black;
+  background-color: #312f30;
   color: white;
   padding: 0.5rem 4rem;
 }
@@ -392,13 +392,13 @@ select {
 .rom-last-news .list-news ul li span {
   padding-top: -2rem;
   font-size: 0.8rem;
-  color: #999;
+  color: #c1c1c1;
 }
 
 .rom-social-media-news {
   display: flex;
   color: white;
-  background-color: black;
+  background-color: #312f30;
   padding: 1.6rem 1rem;
   border-radius: 2rem;
   margin-top: 2rem;
@@ -499,7 +499,7 @@ select {
   text-transform: capitalize;
 }
 .rom-card-new .rom-card-body span {
-  color: #aaa;
+  color: #c1c1c1;
 }
 
 .rom-card-competencies {
@@ -510,7 +510,7 @@ select {
 .rom-card-competencies span {
   margin-left: 1rem;
   margin-bottom: 0.2rem;
-  color: #555;
+  color: #c1c1c1;
 }
 .rom-card-competencies .rom-card-body {
   padding: 1.5rem 1rem;
@@ -520,14 +520,14 @@ select {
 .rom-card-competencies .rom-card-body p {
   margin: 0;
   font-size: 1.4rem;
-  color: #fff;
+  color: #ffffff;
 }
 .rom-card-competencies .rom-card-body a {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 0.8rem;
-  color: #fff;
+  color: #ffffff;
 }
 
 .content-article {
@@ -546,7 +546,7 @@ select {
 
 .aside-tv {
   width: 30%;
-  background-color: #2f2f2f;
+  background-color: #312f30;
   border-radius: 36px;
   color: #fff;
   padding: 2rem 0;
@@ -566,12 +566,12 @@ select {
 }
 .aside-tv .body-news div span {
   font-size: 0.9rem;
-  color: #ccc;
+  color: #c1c1c1;
 }
 
 .aside-opinion {
   width: 30%;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
   border-radius: 36px;
   padding: 2rem 0 0;
 }
@@ -645,7 +645,7 @@ select {
 }
 .column1-1 div span {
   font-size: 0.9rem;
-  color: #888;
+  color: #c1c1c1;
 }
 
 .column2-1 {
@@ -660,7 +660,7 @@ select {
 }
 .column2-1 .list-news-title li span {
   margin-left: 0.6rem;
-  color: #888;
+  color: #c1c1c1;
   font-size: 0.8rem;
 }
 
@@ -678,7 +678,7 @@ select {
 }
 .column1 span {
   font-size: 0.9rem;
-  color: #888;
+  color: #c1c1c1;
 }
 
 .column2 {
@@ -690,7 +690,7 @@ select {
 }
 .column2 div span {
   font-size: 0.8rem;
-  color: #888;
+  color: #c1c1c1;
   margin-bottom: 0.4rem;
 }
 .column2 div img {
@@ -713,7 +713,7 @@ select {
 }
 .column3 .list-news-title li span {
   margin-left: 0.6rem;
-  color: #888;
+  color: #c1c1c1;
   font-size: 0.8rem;
 }
 
@@ -786,7 +786,7 @@ select {
 .article-column span {
   display: block;
   font-size: 0.9rem;
-  color: #888;
+  color: #c1c1c1;
   margin-top: 0.4rem;
 }
 .article-column ul {
@@ -814,7 +814,7 @@ select {
   margin-left: 0.5rem;
 }
 .article-column:not(:nth-child(0)) {
-  border-right: 2px solid #000;
+  border-right: 2px solid #312f30;
   padding-right: 1.2rem;
 }
 
@@ -831,7 +831,7 @@ footer .footer-head h1 {
 footer .footer-body {
   margin-top: 1.4rem;
   color: #fff;
-  background-color: #312F30;
+  background-color: #312f30;
   padding: 3rem 5rem;
   display: flex;
 }

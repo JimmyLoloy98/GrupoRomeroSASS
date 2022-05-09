@@ -14,7 +14,7 @@
   span{
     display: block;
     font-size: .9rem;
-    color: #888;
+    color: $gray-text;
     margin-top: .4rem;
   }
   ul{
@@ -42,7 +42,7 @@
   }
 
   &:not(:nth-child(0)){
-    border-right: 2px solid #000;
+    border-right: 2px solid $black;
     padding-right: 1.2rem;
   }
 }
