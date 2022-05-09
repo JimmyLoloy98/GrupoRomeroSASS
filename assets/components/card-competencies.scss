@@ -5,7 +5,7 @@
   span{
     margin-left: 1rem;
     margin-bottom: .2rem;
-    color: #555;
+    color: $gray-text;
   }
   .rom-card-body{
     padding: 1.5rem 1rem;
@@ -14,14 +14,14 @@
     p{
       margin: 0;
       font-size: 1.4rem;
-      color: #fff;
+      color: $white;
     }
     a{
       display: flex;
       justify-content: space-between;
       align-items: center;
       margin-top: .8rem;
-      color: #fff;
+      color: $white;
     }
   }
 }
