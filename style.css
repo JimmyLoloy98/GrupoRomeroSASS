@@ -534,6 +534,34 @@ h1, h2 {
   margin: 0;
 }
 
+.wrapper-section1 {
+  width: 80%;
+  margin: 2rem auto;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.wrapper-section1 .content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.wrapper-section1 .content .div-right {
+  width: 30%;
+}
+.wrapper-section1 .content .div-right figure {
+  margin: 0;
+  margin-top: 0.65rem;
+}
+.wrapper-section1 .content .div-right figure img {
+  border-radius: 10px;
+  width: 100%;
+}
+.wrapper-section1 .content .div-left {
+  width: 70%;
+}
+
 .rom-nav {
   background: #312f30;
   color: #ffffff;
