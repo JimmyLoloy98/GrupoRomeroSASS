@@ -216,7 +216,7 @@ select {
 .wrapper main section > form .container-form .forget-pass {
   display: inline;
   font-size: 0.8rem;
-  color: #c1c1c1;
+  color: #999;
   margin-left: 1rem;
 }
 .wrapper main section > form .container-form button {
@@ -312,7 +312,7 @@ select {
 .div-container .div-content .div-1 span {
   margin-top: 0.4rem;
   font-size: 0.85rem;
-  color: #c1c1c1;
+  color: #999;
 }
 .div-container .div-content .div-2 {
   width: 50%;
@@ -339,7 +339,7 @@ select {
   margin-top: 0.4rem;
   padding-left: 0.6rem;
   font-size: 0.8rem;
-  color: #c1c1c1;
+  color: #999;
 }
 
 .div-below {
@@ -347,7 +347,7 @@ select {
 }
 .div-below div {
   position: relative;
-  margin-left: 40%;
+  margin-left: 45%;
   margin-top: -1.1rem;
 }
 .div-below div a {
@@ -357,6 +357,105 @@ select {
 }
 .div-below div a i {
   margin-left: 0.6rem;
+}
+
+.div-container1 {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.2rem;
+}
+.div-container1 figure {
+  text-align: center;
+  margin: 0;
+  width: 45%;
+}
+.div-container1 figure img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 10px;
+}
+.div-container1 .content-top {
+  width: 55%;
+  text-align: justify;
+}
+.div-container1 .content-top .time {
+  font-size: 0.85rem;
+  color: #999;
+}
+.div-container1 .content-top h1, .div-container1 .content-top h2 {
+  margin: 0.6rem 0;
+}
+.div-container1 .content-top .dayli {
+  font-size: 1.2rem;
+}
+
+.wrapper-section2 {
+  display: flex;
+  justify-content: right;
+}
+
+.div-container2 {
+  width: 90%;
+  margin-top: 3.4rem;
+  margin-bottom: 3rem;
+  display: flex;
+  gap: 3.5rem;
+}
+.div-container2 .left-container {
+  width: 70%;
+}
+.div-container2 .left-container .container {
+  margin-top: 1rem;
+}
+.div-container2 .left-container .container .div-1 {
+  margin: 1rem 0;
+}
+.div-container2 .left-container .container .div-1 .time {
+  font-size: 0.85rem;
+  color: #999;
+}
+.div-container2 .left-container .container .div-1 h1, .div-container2 .left-container .container .div-1 h2 {
+  margin: 0.6rem 0;
+}
+.div-container2 .left-container .container .div-1 .dayli {
+  font-size: 1.2rem;
+}
+.div-container2 .left-container .container .div-1 .boton {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  color: #BE4439;
+}
+.div-container2 .left-container .container .div-1 .boton i {
+  margin-left: 0.5rem;
+}
+.div-container2 .aside-container {
+  width: 30%;
+  margin: 0 auto;
+}
+.div-container2 .aside-container .div-content {
+  width: 80%;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+.div-container2 .aside-container .div-content figure {
+  margin: 0;
+}
+.div-container2 .aside-container .div-content figure img {
+  width: 100%;
+  border-radius: 10px;
+}
+.div-container2 .aside-container .div-content figure figcaption {
+  font-size: 1.2rem;
+  margin: 0.4rem 0;
+}
+.div-container2 .aside-container .div-content figure .time {
+  font-size: 0.85rem;
+  color: #999;
 }
 
 .rom-nav {
@@ -497,7 +596,7 @@ select {
 .rom-last-news .list-news ul li span {
   padding-top: -2rem;
   font-size: 0.8rem;
-  color: #c1c1c1;
+  color: #999;
 }
 
 .rom-social-media-news {
@@ -604,7 +703,7 @@ select {
   text-transform: capitalize;
 }
 .rom-card-new .rom-card-body span {
-  color: #c1c1c1;
+  color: #999;
 }
 
 .rom-card-competencies {
@@ -615,7 +714,7 @@ select {
 .rom-card-competencies span {
   margin-left: 1rem;
   margin-bottom: 0.2rem;
-  color: #c1c1c1;
+  color: #999;
 }
 .rom-card-competencies .rom-card-body {
   padding: 1.5rem 1rem;
@@ -671,7 +770,7 @@ select {
 }
 .aside-tv .body-news div span {
   font-size: 0.9rem;
-  color: #c1c1c1;
+  color: #999;
 }
 
 .aside-opinion {
@@ -750,7 +849,7 @@ select {
 }
 .column1-1 div span {
   font-size: 0.9rem;
-  color: #c1c1c1;
+  color: #999;
 }
 
 .column2-1 {
@@ -765,7 +864,7 @@ select {
 }
 .column2-1 .list-news-title li span {
   margin-left: 0.6rem;
-  color: #c1c1c1;
+  color: #999;
   font-size: 0.8rem;
 }
 
@@ -783,7 +882,7 @@ select {
 }
 .column1 span {
   font-size: 0.9rem;
-  color: #c1c1c1;
+  color: #999;
 }
 
 .column2 {
@@ -795,7 +894,7 @@ select {
 }
 .column2 div span {
   font-size: 0.8rem;
-  color: #c1c1c1;
+  color: #999;
   margin-bottom: 0.4rem;
 }
 .column2 div img {
@@ -818,7 +917,7 @@ select {
 }
 .column3 .list-news-title li span {
   margin-left: 0.6rem;
-  color: #c1c1c1;
+  color: #999;
   font-size: 0.8rem;
 }
 
@@ -891,7 +990,7 @@ select {
 .article-column span {
   display: block;
   font-size: 0.9rem;
-  color: #c1c1c1;
+  color: #999;
   margin-top: 0.4rem;
 }
 .article-column ul {
