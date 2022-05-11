@@ -3,3 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.main-container{
+  padding-top: 2rem;
+	padding-left: 6rem;
+}
+
+.div-container h1{
+  font-size: 2rem;
+}
+
+.div-container{
+  width: 90%;
+  margin: 4rem auto;
+}
