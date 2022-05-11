@@ -457,6 +457,48 @@ select {
   font-size: 0.85rem;
   color: #999;
 }
+.wrapper-covers {
+  background-color: #e5e5e5;
+  border-radius: 12px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 1.5rem 1.2rem 2.5rem 1.2rem;
+}
+
+.container-figure {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  column-gap: 40px;
+  row-gap: 32px;
+}
+.container-figure figure {
+  background-color: #ffffff;
+  padding: 0.5rem 0.3rem;
+  border-radius: 8px;
+  margin: 0;
+}
+.container-figure figure figcaption {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 0.6rem;
+}
+.container-figure figure figcaption img {
+  width: 30%;
+}
+.container-figure figure figcaption span {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  width: 70%;
+}
+.container-figure figure figcaption span p {
+  font-size: 0.8rem;
+  color: #4d4d4d;
+  margin: 0;
+}
 
 .rom-nav {
   background: #312f30;
