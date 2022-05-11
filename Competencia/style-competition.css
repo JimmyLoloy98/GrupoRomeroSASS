@@ -3,3 +3,210 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.main-container{
+  padding-top: 2rem;
+	padding-left: 6rem;
+}
+.main-container h1{
+  font-size: 2.2rem;
+}
+.main-container .hr{
+  margin-top: 0.5rem;
+}
+
+.div-container1{
+  width: 85%;
+  margin: 5rem;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.content-img{
+  width: 34rem;
+  height: 19rem;
+}
+
+.content-img img{
+  max-width:100%;
+  max-height:100%;
+  border-radius: 0.5rem;
+}
+
+.contenido{
+  width: 28rem;
+  height: 17rem;
+  margin: auto;
+  display: flex;
+  align-items: center;
+
+}
+.content-top{
+  text-align: justify;
+  
+}
+
+
+.content-top .div-span-0{
+  background-color: brown;
+  color: white;
+  border: none;
+  width: 35%;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.8rem;
+}
+
+.content-top .boton-1{
+  display: flex;        
+  justify-content: right;
+  align-items: flex-end;
+
+}
+
+.boton-1 button{
+  color: orangered;
+  background-color: white;
+  border: none;
+  font-size: 1rem;
+}
+.content-top .span1{
+  font-size: 0.9rem;
+  color: gray;
+
+}
+
+.content-top .span2{
+  font-size: 1.28rem;
+
+}
+
+.content-top h1{
+  font-size: 2.2rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+
+}
+
+
+.div-container2{
+  width: 85%;
+  margin: 5rem;
+  margin-top: -2.5rem;
+
+}
+
+.div-1{
+  margin-top: 1.5rem;
+  margin-bottom: 1.3rem
+}
+
+.div-1 .span3{
+  font-size: 0.9rem;
+  color: gray;
+}
+.div-1 h2{
+  font-size: 1.6rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+.div-1 h2 a{
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+.div-1 .span4{
+  font-size: 1.2rem;
+}
+.div-span1{
+  margin-bottom: 0.8rem;
+  width: 2.5rem;
+  height: 1.5rem;
+  background-color: #E97909;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.div-span2{
+  width: 4.5rem;
+  height: 1.5rem;
+  margin-bottom: 0.8rem;
+  background-color: #FE0000;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.div-span3 {
+  width: 6.5rem;
+  height: 1.5rem;
+  margin-bottom: 0.8rem;
+  background-color: #01AC44;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.div-span4 {
+  width: 6.5rem;
+  height: 1.5rem;
+  margin-bottom: 0.8rem;
+  background-color: #312E85;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.div-span5 {
+  width: 6.5rem;
+  height: 1.5rem;
+  margin-bottom: 0.8rem;
+  background-color: #6BAC2E;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.div-1 .boton-2{
+  display: flex;        
+  justify-content: right;
+  align-items: flex-end;
+}
+.boton-2 button{
+  width: 7.5rem;
+  font-size: 1rem;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.container-bottom{
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+
+.container-button{
+  margin-top: -0.85rem;
+  display: flex;        
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.container-button button{
+  font-size: 1rem;
+  width: 19rem;
+  border: none;
+  background-color: white;
+  color: orangered;
+}
