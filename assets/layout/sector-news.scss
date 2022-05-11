@@ -23,7 +23,7 @@
     }
   }
   .section-foot{
-    background-color: #3c3c3c;
+    background-color: $black;
     border-radius: 20px;
     width: 100%;
     display: flex;
@@ -35,14 +35,8 @@
       width: 20%;
       select{
         margin-left: 16%;
-        border: 1px solid #fff;
-        border-radius: 10px;
-        padding: .4rem .6rem;
-        color: #fff;
-        option{
-          color: #000;
-        }
       }
+      // dropdown.scss
     }
     .slider-new{
       width: 80%;
