@@ -4,9 +4,13 @@
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 1rem;
+	i{
+		color: $primary;
+	}
 }
 .view-all-button{
 	display: flex;
 	justify-content: flex-end;
 	gap: .6rem;
+	color: $primary;
 }

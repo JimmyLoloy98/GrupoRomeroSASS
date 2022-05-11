@@ -12,7 +12,7 @@ footer{
   .footer-body{
     margin-top: 1.4rem;
     color: #fff;
-    background-color: #312F30;
+    background-color: $black;
     padding: 3rem 5rem;
     display: flex;
     .footer-body-column1{
@@ -41,6 +41,7 @@ footer{
         display: flex;
         flex-direction: column;
         gap: 1rem;
+        text-transform: capitalize;
       }
     }
   }

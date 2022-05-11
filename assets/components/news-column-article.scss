@@ -1,0 +1,48 @@
+.article-column{
+  width: 30%;
+  h2{
+    text-transform: capitalize;
+  }
+  img{
+    margin-top: 1rem;
+    border-radius: 12px;
+  }
+  p{
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  span{
+    display: block;
+    font-size: .9rem;
+    color: $gray-text;
+    margin-top: .4rem;
+  }
+  ul{
+    margin-top: 1rem;
+    margin-left: .8rem;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    li{
+      color: $primary;
+      list-style: disc;
+      p{
+        font-weight: 500;
+        font-size: .9rem;
+        color: #000;
+      }
+    }
+  }
+  a{
+    display: flex;
+    justify-content: flex-end;
+    color: $primary;
+    i{ margin-left: .5rem;}
+    // -> sector-news.scss
+  }
+
+  &:not(:nth-child(0)){
+    border-right: 2px solid $black;
+    padding-right: 1.2rem;
+  }
+}

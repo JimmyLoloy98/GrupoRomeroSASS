@@ -1,0 +1,39 @@
+.div-container1{
+  .figure-competition{
+    width: 50%;
+  }
+  .content-competition{
+    width: 50%;
+  } 
+}
+
+.tagline{
+  background-color: $red;
+  color: white;
+  text-align: center;
+  padding: .2rem 1rem;
+  width: fit-content;
+  margin-bottom: .8rem;
+}
+
+.boton-1{
+  display: flex;        
+  justify-content: right;
+  margin-top: .4rem;
+  a{
+    color: $primary;
+    i{ margin-left: .5rem;}
+  }
+}
+
+.div-container2{
+  width: 80%;
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.divider{
+  margin: 0;
+}
