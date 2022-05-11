@@ -1,0 +1,47 @@
+@mixin grid-portadas{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px,1fr));
+  column-gap: 40px;
+  row-gap: 32px;
+}
+
+.wrapper-covers{
+  background-color: $gray-box;
+  border-radius: 12px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 1.5rem 1.2rem 2.5rem 1.2rem;
+}
+
+.container-figure{
+  @include grid-portadas;
+
+  figure{
+    background-color: $white;
+    padding: .5rem .3rem;
+    border-radius: 8px;
+    margin: 0;
+    figcaption{
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      width: 80%;
+      margin: 0 auto;
+      margin-top: .6rem;
+      img{
+        width: 30%;
+      }
+      span{
+        display: flex;
+        flex-direction: column;
+        gap: .2rem;
+        width: 70%;
+        p{
+          font-size: .8rem;
+          color: $gray-container;
+          margin: 0;
+        }
+      }
+    }
+  }
+}

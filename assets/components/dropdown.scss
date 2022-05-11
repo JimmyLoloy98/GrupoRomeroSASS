@@ -1,0 +1,15 @@
+.dropdown-dark{
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: .4rem .6rem;
+  color: #fff;
+  option{
+    color: #000;
+  }
+}
+
+.dropdown-gray{
+  padding: .6rem 1rem;
+  border-radius: 10px;
+  background-color: $gray-box;
+}
