@@ -359,6 +359,19 @@ select {
   margin-left: 0.6rem;
 }
 
+.time {
+  font-size: 0.85rem;
+  color: #999;
+}
+
+h1, h2 {
+  margin: 0.6rem 0;
+}
+
+.dayli {
+  font-size: 1.2rem;
+}
+
 .div-container1 {
   width: 80%;
   margin: 0 auto;
@@ -382,16 +395,6 @@ select {
   width: 55%;
   text-align: justify;
 }
-.div-container1 .content-top .time {
-  font-size: 0.85rem;
-  color: #999;
-}
-.div-container1 .content-top h1, .div-container1 .content-top h2 {
-  margin: 0.6rem 0;
-}
-.div-container1 .content-top .dayli {
-  font-size: 1.2rem;
-}
 
 .wrapper-section2 {
   display: flex;
@@ -413,16 +416,6 @@ select {
 }
 .div-container2 .left-container .container .div-1 {
   margin: 1rem 0;
-}
-.div-container2 .left-container .container .div-1 .time {
-  font-size: 0.85rem;
-  color: #999;
-}
-.div-container2 .left-container .container .div-1 h1, .div-container2 .left-container .container .div-1 h2 {
-  margin: 0.6rem 0;
-}
-.div-container2 .left-container .container .div-1 .dayli {
-  font-size: 1.2rem;
 }
 .div-container2 .left-container .container .div-1 .boton {
   display: flex;
@@ -457,6 +450,7 @@ select {
   font-size: 0.85rem;
   color: #999;
 }
+
 .wrapper-covers {
   background-color: #e5e5e5;
   border-radius: 12px;
@@ -497,6 +491,46 @@ select {
 .container-figure figure figcaption span p {
   font-size: 0.8rem;
   color: #4d4d4d;
+  margin: 0;
+}
+
+.div-container1 .figure-competition {
+  width: 50%;
+}
+.div-container1 .content-competition {
+  width: 50%;
+}
+
+.tagline {
+  background-color: #9a1d21;
+  color: white;
+  text-align: center;
+  padding: 0.2rem 1rem;
+  width: fit-content;
+  margin-bottom: 0.8rem;
+}
+
+.boton-1 {
+  display: flex;
+  justify-content: right;
+  margin-top: 0.4rem;
+}
+.boton-1 a {
+  color: #BE4439;
+}
+.boton-1 a i {
+  margin-left: 0.5rem;
+}
+
+.div-container2 {
+  width: 80%;
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.divider {
   margin: 0;
 }
 
