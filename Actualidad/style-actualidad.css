@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-title{
+  padding-left: 5rem;
+  margin-top: 3rem;
+}
+
+.main-title h1{
+  font-size: 2.2rem;
+}
+
+.main-title hr{
+  margin-top: 0.5rem;
+}
+
+.buttons-top{
+  width: 80%;
+  margin: 4rem auto;
+}
+
+.buttons-top button{
+  width: 10rem;
+  height: 2.5rem;
+  font-size: 1.6rem;
+  border: none;
+  margin-right: 0.5rem;
+  background-color: #E5E5E5;
+}
+
+.buttons-top button:hover{
+  background-color: black;
+  color: white;
+}
+
+.div-container1{
+  width: 80%;
+  margin: auto;
+}
+
+.div-container1 .boton-1{
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: right;
+
+}
+
+.boton-1 a{
+  font-size: 1.1rem;
+}
+.content{
+  display: flex;
+}
+
+.div-right{
+  width: 45%;
+  
+}
+
+.div-right img{
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 0.5rem;
+}
+
+.div-left{
+  width: 55%;
+  margin-left: 2.5rem;
+  text-align: justify;
+
+}
+
+.div-left .time{
+  color: gray;
+}
+
+.div-left h2{
+  margin-top: 0.6rem;
+  margin-bottom: 0.6rem;
+  font-size: 2.2rem;
+
+}
+
+.div-left .dayli{
+  font-size: 1.1rem;
+}
+
+
+.div-container2{
+  width: 80%;
+  margin: 4rem auto;
+}
+
+.div-1{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.div-1 .time{
+  font-size: 0.9rem;
+  color: gray;
+}
+
+.div-1 h2{
+  font-size: 1.6rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.div-1 .dayli{
+  font-size: 1.1rem;
+}
+
+.div-1 .boton-1{
+  display:flex;
+  justify-content: right;
+}
+
+.boton-1 a{
+  font-size: 1.1rem;
+}
