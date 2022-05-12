@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.title-central{
+    padding-left: 6rem;
+}
+.title-central h1{
+    font-size: 1.6rem;
+    border-bottom: 1px solid black;
+    padding: 0.5rem;
+}
+.container-general{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 90%;
+}
+.Editorials{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 2rem;
+}
+.Editorial h1{
+    font-size: 1.6rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.icon{
+    align-items: center;
+}
+.El-Comercio{
+    text-align: center;
+    background: #e7c727;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.El-Comercio img{
+    width: 17rem;
+    padding: 1rem;
+    padding-left: 2rem;
+    text-align: center;
+    margin-left: 2rem;
+}
+.El-Comercio span{
+    text-align: start;
+    padding: 0.8rem;
+    font-size: 0.8rem;
+}
+.El-Comercio p{
+    font-size: 1.2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
+    padding-bottom: 0.2rem;
+}
+.Gestion{
+    background: #9e061f;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 1.4rem;
+    display: flex;
+    flex-direction: column;
+}
+.Gestion img{
+    width: 15rem;
+    padding-top: 0.2rem;
+    padding-left: 2rem;
+    padding-bottom: 0.8rem;
+    text-align: center;
+    margin-left: 2.5rem;
+}
+.Gestion span{
+    text-align: start;
+    padding: 0.8rem;
+    font-size: 0.8rem;
+}
+.Gestion p{
+    font-size: 1.2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
+    padding-bottom: 0.2rem;
+}
+.Perú-21{
+    background: #005ead;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 1.4rem;
+    display: flex;
+    flex-direction: column;
+}
+.Perú-21 img{
+    width: 15rem;
+    padding-top: 0.2rem;
+    margin-left: 2rem;
+    padding-left: 3rem;
+    padding-bottom: 0.8rem;
+}
+.Perú-21 span{
+    text-align: start;
+    padding: 0.8rem;
+    font-size: 0.8rem;
+}
+.Perú-21 p{
+    font-size: 1.2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
+    padding-bottom: 0.2rem;
+}
+.Section-Authors{
+    width: 30%
+}
+.Section-Authors h1{
+    padding-top: 2rem;
+    font-size: 1.6rem;
+}
+.sub-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem;
+}
+.Authors{
+    background: #DCDCDC;
+    border-radius: .8rem;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    grid-gap: 2rem;
+}
+.Authors img{
+    border-radius: 50%;
+    height: 30%;
+    width: 6%;
+    margin-left: 5%;
+}
+.date-general{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 100%;
+}
+.date{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    text-align: center;
+    padding-left: 85%;
+}
