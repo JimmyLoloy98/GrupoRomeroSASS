@@ -608,6 +608,26 @@ h1, h2 {
   width: 70%;
 }
 
+.buttons-top {
+  width: 80%;
+  margin: 3.5rem auto 2.8rem;
+}
+.buttons-top button {
+  width: 10rem;
+  height: 2.5rem;
+  font-size: 1.6rem;
+  border: none;
+  margin-right: 0.5rem;
+  background-color: #e5e5e5;
+}
+.buttons-top button:hover {
+  background-color: #4d4d4d;
+  color: white;
+}
+.buttons-top hr {
+  margin: 0;
+}
+
 .rom-nav {
   background: #312f30;
   color: #ffffff;
