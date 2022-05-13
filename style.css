@@ -628,6 +628,85 @@ h1, h2 {
   margin: 0;
 }
 
+.buttons-top {
+  width: 85%;
+  display: flex;
+  border-bottom: 4px solid #e9b02b;
+}
+.buttons-top button {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  padding: 0.8rem 1.2rem;
+  background-color: transparent;
+}
+.buttons-top button i {
+  margin-right: 0.8rem;
+  font-size: 2rem;
+}
+.buttons-top button:hover {
+  background-color: #e9b02b;
+  color: #312f30;
+}
+
+.div-container1 {
+  width: 85%;
+}
+.div-container1 .div-left {
+  width: 45%;
+}
+.div-container1 .div-left figure {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.div-container1 .div-left figure img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+}
+.div-container1 .div-left .time, .div-container1 .div-left h2, .div-container1 .div-left .dayli {
+  display: block;
+}
+.div-container1 .div-left .time {
+  margin-top: 1rem;
+}
+.div-container1 .div-right {
+  width: 55%;
+  text-align: justify;
+}
+.div-container1 .div-right .div-left-1 {
+  display: flex;
+  align-items: center;
+}
+.div-container1 .div-right .div-left-2 {
+  display: flex;
+  align-items: center;
+}
+
+.div-left-right {
+  width: 45%;
+}
+.div-left-right .date {
+  font-size: 0.9rem;
+  color: #999;
+}
+.div-left-right figure {
+  margin: 0;
+  margin-top: 0.5rem;
+  width: 90%;
+}
+.div-left-right figure img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+}
+
+.div-left-left {
+  width: 45%;
+  margin: 0 auto;
+}
+
 .rom-nav {
   background: #312f30;
   color: #ffffff;
