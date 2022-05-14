@@ -707,6 +707,109 @@ h1, h2 {
   margin: 0 auto;
 }
 
+.container-general {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section-editorial h2 {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+.section-editorial .slides-editorials {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+}
+.section-editorial .slides-editorials i {
+  color: #BE4439;
+}
+.section-editorial .slides-editorials .container-card {
+  padding: 0.8rem;
+  border-radius: 10px;
+  max-width: 22%;
+  max-height: 14rem;
+}
+.section-editorial .slides-editorials .container-card .time-editorial {
+  display: flex;
+  color: #4d4d4d;
+  font-size: 0.9rem;
+  margin: 0;
+  margin-bottom: 0.6rem;
+}
+.section-editorial .slides-editorials .container-card figure {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.8rem;
+}
+.section-editorial .slides-editorials .container-card figure img {
+  width: 90%;
+  height: fit-content;
+}
+.section-editorial .slides-editorials .container-card span {
+  display: block;
+  margin-top: 1rem;
+  text-align: center;
+}
+.section-editorial .slides-editorials .container-card span p {
+  font-weight: bolder;
+  margin: 0.4rem 0;
+}
+
+.Section-Authors h2 {
+  margin: 2rem 0;
+}
+.Section-Authors .container-card-author {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 1.8rem;
+}
+.Section-Authors .container-card-author .details-author {
+  display: flex;
+  border-radius: 10px;
+  border: 1px solid white;
+  background: #e5e5e5;
+}
+.Section-Authors .container-card-author .details-author figure {
+  width: 20%;
+  margin: 0;
+  margin: 0.4rem 0 0.3rem;
+  text-align: center;
+}
+.Section-Authors .container-card-author .details-author figure img {
+  border-radius: 50%;
+  height: 6rem;
+}
+.Section-Authors .container-card-author .details-author .date-general {
+  width: 80%;
+  padding: 0 1.2rem 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Section-Authors .container-card-author .details-author .date-general h2, .Section-Authors .container-card-author .details-author .date-general p {
+  margin: 0;
+}
+.Section-Authors .container-card-author .details-author .date-general .date {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.Section-Authors .container-card-author .details-author .date-general .date p {
+  font-size: 1.2rem;
+}
+.Section-Authors .container-card-author .details-author .date-general .text {
+  display: flex;
+  justify-content: right;
+  margin-top: 0.5rem;
+}
+.Section-Authors .container-card-author .details-author .date-general .text i {
+  margin-left: 0.5rem;
+}
+
 .rom-nav {
   background: #312f30;
   color: #ffffff;

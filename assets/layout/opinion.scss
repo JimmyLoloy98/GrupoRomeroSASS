@@ -1,0 +1,109 @@
+.container-general {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.section-editorial{
+	h2 {
+		margin-top: 2rem;
+		margin-bottom: 1.5rem;
+	}
+	.slides-editorials {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		gap: 2rem;
+		i{
+			color: $primary;
+		}
+		.container-card {
+			// background: $yellow;
+			padding: .8rem;
+			border-radius: 10px;
+			max-width: 22%;
+			max-height: 14rem;
+			.time-editorial{
+				display: flex;
+				color: $gray-container;
+				font-size: .9rem;
+				margin: 0;
+				margin-bottom: .6rem;
+			}
+			figure{
+				margin: 0;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 2.8rem;
+				img{
+					width: 90%;
+					height: fit-content;
+				}
+			}
+			span{
+				display: block;
+				margin-top: 1rem;
+				text-align: center;
+				p {
+					font-weight: bolder;
+					margin: .4rem 0;
+				}
+			}
+		}
+	}
+}
+
+
+.Section-Authors{
+	h2 {
+		margin: 2rem 0;
+	}
+	.container-card-author{
+		width: 90%;
+		margin: 0 auto;
+		margin-bottom: 1.8rem;
+		.details-author{
+			display: flex;
+			border-radius: 10px;
+			border: 1px solid white;
+			background: $gray-box;
+			figure{
+				width: 20%;
+				margin: 0;
+				margin: .4rem 0 .3rem;
+				text-align: center;
+				img {
+					border-radius: 50%;
+					height: 6rem;
+				}
+			}
+			.date-general {
+				width: 80%;
+				padding: 0 1.2rem 0 0;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				h2, p{
+					margin: 0;
+				}
+				.date{
+					display: flex;
+					flex-direction: column;
+					gap: .25rem;
+					p{
+						font-size: 1.2rem;
+					}
+				}
+				.text {
+					display: flex;
+					justify-content: right;
+					margin-top: .5rem;
+					i{
+						margin-left: .5rem;
+					}
+				}
+			}
+		}
+	}
+}
+
