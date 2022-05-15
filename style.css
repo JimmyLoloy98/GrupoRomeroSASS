@@ -810,6 +810,126 @@ h1, h2 {
   margin-left: 0.5rem;
 }
 
+.left-article {
+  margin: 3rem;
+  margin-left: 5rem;
+  width: 58%;
+}
+.left-article .fecha {
+  margin: 1rem 0;
+  font-size: 0.9rem;
+  color: #4d4d4d;
+}
+.left-article .title h1 {
+  margin-bottom: 1rem;
+}
+.left-article .Author {
+  width: 60%;
+  background: #e5e5e5;
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 1rem;
+}
+.left-article .Author figure {
+  width: 30%;
+  margin: 0;
+  margin: 0.4rem 0 0.3rem;
+  text-align: center;
+}
+.left-article .Author figure img {
+  border-radius: 50%;
+  height: 4rem;
+}
+.left-article .Author .description {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  gap: 0.5rem;
+  width: 80%;
+  margin: auto 0;
+}
+.left-article .Author .description h2, .left-article .Author .description p {
+  margin: 0;
+}
+.left-article .container figure {
+  border-radius: 50px;
+  border: 2px solid #e5e5e5;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  padding: 1.5rem 3.5rem;
+}
+.left-article .container figure img {
+  width: 100%;
+  height: auto;
+}
+.left-article .container .icons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.2rem;
+}
+.left-article .container .icons a {
+  display: flex;
+  align-items: center;
+}
+.left-article .container .icons a i {
+  font-size: 1.4rem;
+}
+.left-article .container .icons a p {
+  margin: 0;
+  margin-left: 0.5rem;
+}
+
+.wrapper-main {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper-main .section-authors {
+  width: 30%;
+  margin: 8rem 0;
+  margin-right: 0;
+  overflow-y: auto;
+}
+.wrapper-main .section-authors h3 {
+  font-size: 1.3rem;
+  border-bottom: 3px solid #312f30;
+}
+.wrapper-main .section-authors .container-card-author {
+  margin-top: 1.5rem;
+  margin-right: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.wrapper-main .section-authors .container-card-author .Authors {
+  display: flex;
+  align-items: center;
+  padding-right: 1.5rem;
+  background: #e5e5e5;
+  border-radius: 8px;
+}
+.wrapper-main .section-authors .container-card-author .Authors figure {
+  width: 30%;
+  margin: 0;
+  padding: 0.2rem 0;
+  text-align: center;
+}
+.wrapper-main .section-authors .container-card-author .Authors figure img {
+  width: 70%;
+  height: auto;
+  border-radius: 50%;
+}
+.wrapper-main .section-authors .container-card-author .Authors .description {
+  width: 70%;
+  text-align: justify;
+}
+.wrapper-main .section-authors .container-card-author .Authors .description p {
+  margin: 0;
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+}
+
 .rom-nav {
   background: #312f30;
   color: #ffffff;
