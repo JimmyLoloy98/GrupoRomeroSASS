@@ -1,0 +1,75 @@
+.dayli-author{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  figure{
+    background-color: $yellow;
+    width: 160px;
+    margin: 0;
+    padding: .3rem;
+    img{
+      width: 100%;
+    }
+  }
+  .description{
+    h3, p{
+      margin: 0;
+      margin-left: 1rem;
+    }
+    p{
+      margin-top: .4rem;
+    }
+  }
+}
+
+.section-editorial-column{
+  width: 30%;
+  height: fit-content;
+  margin: 8rem 0;
+  margin-right: 0;
+  h3 {
+    font-size: 1.3rem;
+    border-bottom: 3px solid $black;
+  }
+	.container-card-editorials {
+    margin-top: 1.5rem;
+    padding-left: 1rem;
+		display: flex;
+    flex-direction: column;
+		gap: 1.2rem;
+		.container-card {
+			// background: $yellow;
+			padding: .8rem;
+			border-radius: 10px;
+			max-width: 70%;
+			height: fit-content;
+			.time-editorial{
+				display: flex;
+				color: $gray-container;
+				font-size: .9rem;
+				margin: 0;
+				margin-bottom: .6rem;
+			}
+			figure{
+				margin: 0;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 2.8rem;
+				img{
+					width: 90%;
+					height: fit-content;
+				}
+			}
+			span{
+				display: block;
+				margin-top: 1rem;
+				text-align: center;
+				p {
+					font-weight: bolder;
+					margin: .4rem 0;
+				}
+			}
+		}
+	}
+}
