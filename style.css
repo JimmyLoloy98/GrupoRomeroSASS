@@ -1003,6 +1003,39 @@ h1, h2 {
   margin: 0.4rem 0;
 }
 
+.container-aside-content {
+  width: 90%;
+  margin-top: 1.5rem;
+}
+.container-aside-content .ul-noticias {
+  margin-left: 0.8rem;
+  margin-bottom: 1.5rem;
+  list-style: disc;
+  color: #BE4439;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.container-aside-content .ul-noticias p {
+  margin: 0;
+  color: black;
+  text-align: justify;
+}
+.container-aside-content .card-dayli {
+  margin-left: 0.8rem;
+  margin-bottom: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.container-aside-content .card-dayli figure {
+  margin: 0;
+}
+.container-aside-content .card-dayli figure img {
+  border-radius: 8px;
+  width: 100%;
+}
+
 .rom-nav {
   background: #312f30;
   color: #ffffff;
