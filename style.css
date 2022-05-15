@@ -930,6 +930,79 @@ h1, h2 {
   font-size: 0.9rem;
 }
 
+.dayli-author {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.dayli-author figure {
+  background-color: #fecf1f;
+  width: 160px;
+  margin: 0;
+  padding: 0.3rem;
+}
+.dayli-author figure img {
+  width: 100%;
+}
+.dayli-author .description h3, .dayli-author .description p {
+  margin: 0;
+  margin-left: 1rem;
+}
+.dayli-author .description p {
+  margin-top: 0.4rem;
+}
+
+.section-editorial-column {
+  width: 30%;
+  height: fit-content;
+  margin: 8rem 0;
+  margin-right: 0;
+}
+.section-editorial-column h3 {
+  font-size: 1.3rem;
+  border-bottom: 3px solid #312f30;
+}
+.section-editorial-column .container-card-editorials {
+  margin-top: 1.5rem;
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.section-editorial-column .container-card-editorials .container-card {
+  padding: 0.8rem;
+  border-radius: 10px;
+  max-width: 70%;
+  height: fit-content;
+}
+.section-editorial-column .container-card-editorials .container-card .time-editorial {
+  display: flex;
+  color: #4d4d4d;
+  font-size: 0.9rem;
+  margin: 0;
+  margin-bottom: 0.6rem;
+}
+.section-editorial-column .container-card-editorials .container-card figure {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.8rem;
+}
+.section-editorial-column .container-card-editorials .container-card figure img {
+  width: 90%;
+  height: fit-content;
+}
+.section-editorial-column .container-card-editorials .container-card span {
+  display: block;
+  margin-top: 1rem;
+  text-align: center;
+}
+.section-editorial-column .container-card-editorials .container-card span p {
+  font-weight: bolder;
+  margin: 0.4rem 0;
+}
+
 .rom-nav {
   background: #312f30;
   color: #ffffff;
