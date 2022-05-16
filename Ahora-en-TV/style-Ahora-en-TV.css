@@ -3,3 +3,50 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.main-title{
+  margin-left: 5rem;
+  margin-top: 3rem;
+}
+
+.container{
+  background-color: black;
+  color: white;
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.div-container1{
+  display: flex;
+  padding-top: 3rem;
+}
+.content-left{
+  position: relative;
+  width: 40%;
+  margin: auto;
+}
+.content-left video{
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 0.5rem;
+}
+.play{
+  position:absolute;
+  width: 7rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: grey transparent;
+  margin-top: -5.3rem;
+}
+.play i{
+  font-size: 4rem;
+
+
+}
+
+.content-right{
+  width: 45%;
+  margin: 0 auto;
+}
