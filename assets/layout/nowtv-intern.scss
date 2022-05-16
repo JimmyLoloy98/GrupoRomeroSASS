@@ -1,0 +1,44 @@
+.wrapper-main-dark{
+  background-color: $black;
+}
+
+.left-article{
+  height: fit-content;
+  .fecha p{
+    color: $gray-box;
+  }
+  .title{
+    color: $white;
+  }
+  .container-video{
+    width: 100%;
+    video{
+      width: 100%;
+      height: auto;
+    }
+    .description-video{
+      color: $white;
+      text-align: justify;
+      font-size: 1.1rem;
+    }
+    .icons{
+      color: $white;
+    }
+  }
+}
+
+.section-editorial-column{
+  margin-top: 4rem;
+  h3{
+    color: $white;
+    padding-bottom: .5rem;
+    border-bottom: 3px solid $white;
+  }
+  h4{
+    color: $white;
+  }
+  .time{
+    color: $gray-box;
+  }
+}
+
