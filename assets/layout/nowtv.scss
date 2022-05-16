@@ -1,0 +1,55 @@
+.wrapper-dark{
+  background-color: $black;
+  margin-bottom: -3rem;
+}
+
+.section-container-video{
+  video{
+    border-radius: 10px;
+    width: 50%;
+    height: auto;
+  }
+  .content-top{
+    color: $white;
+    .boton-1{
+      margin-top: 1.5rem;
+      color: $white;
+      a{
+        color: $gray-box;
+      }
+    }
+  }
+}
+
+.wrapper-section1-dark{
+  width: 85%;
+  .content .div-right{
+    video{
+      border-radius: 10px;
+      width: 100%;
+      height: auto;
+    }
+  }
+  .div-left{
+    color: $white;
+    .time{
+      color: $gray-box;
+    }
+    .boton-1{
+      color: $white;
+      a{
+        color: $gray-box;
+      }
+    }
+  }
+}
+
+.div-below-dark{
+  div {
+    padding-bottom: 3rem;
+    a{
+      background-color: $black;
+      color: $white;
+    }
+  }
+}
