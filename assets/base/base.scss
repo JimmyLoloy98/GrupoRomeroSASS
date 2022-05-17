@@ -48,3 +48,9 @@ select{
 		width: 80%;
 	}	
 }
+
+@mixin mobile{
+  @media screen and (max-width: 568px){
+    @content;
+  }
+}
