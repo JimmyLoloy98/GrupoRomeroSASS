@@ -22,7 +22,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 2.2rem 0;
+      padding: 2rem 0;
       h1{
         font-size: 1.8rem;
         font-weight: 500;
@@ -30,23 +30,26 @@
       }
     }
     section{
-      padding: 1.6rem 2rem;
-      padding-bottom: 0;
+      padding: 1.5rem 2rem 0;
       display: flex;
       flex-direction: column;
       > div{
-        width: 100%;
+        width: 90%;
+        margin: 0 auto;
         display: flex;
         justify-content: space-around;
+        gap: 1rem;
         button{
-          padding: .8rem 4.6rem;
+          padding: 1rem 4rem;
           box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
           &:hover{ color: $primary; }
         }
       }
       > span{
+        display: flex;
+        width: 90%;
+        margin: 1.4rem auto;
         text-align: center;
-        margin: 1.6rem 3rem;
         font-size: .9rem;
       }
       > form{
@@ -107,10 +110,41 @@
       margin-top: 1.5rem;
       border-top: 1px solid $gray-container;
       > a{
+        text-align: center;
         color: $gray-container;
         text-transform: uppercase;
         font-size: .7rem;
       }
     }
   }
+}
+
+@include mobile{
+  .wrapper{
+    figure{
+      display: none;
+    }
+    main{
+      position: initial;
+      width: 100vw;
+      height: 100vh;
+      header{
+        padding: 1rem 0 1.6rem;
+        h1{
+          font-size: 1.5rem;
+        }
+        img{
+          width: 250px;
+        }
+      }
+      section{
+        > div{
+          gap: .6rem;
+          button{
+            padding: .8rem 1.8rem;
+          }
+        }
+      }
+    }
+  } 
 }

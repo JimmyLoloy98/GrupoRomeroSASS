@@ -158,7 +158,7 @@ select {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2.2rem 0;
+  padding: 2rem 0;
 }
 .wrapper main header h1 {
   font-size: 1.8rem;
@@ -166,26 +166,29 @@ select {
   margin-bottom: 0.8rem;
 }
 .wrapper main section {
-  padding: 1.6rem 2rem;
-  padding-bottom: 0;
+  padding: 1.5rem 2rem 0;
   display: flex;
   flex-direction: column;
 }
 .wrapper main section > div {
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
   display: flex;
   justify-content: space-around;
+  gap: 1rem;
 }
 .wrapper main section > div button {
-  padding: 0.8rem 4.6rem;
+  padding: 1rem 4rem;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
 }
 .wrapper main section > div button:hover {
   color: #BE4439;
 }
 .wrapper main section > span {
+  display: flex;
+  width: 90%;
+  margin: 1.4rem auto;
   text-align: center;
-  margin: 1.6rem 3rem;
   font-size: 0.9rem;
 }
 .wrapper main section > form .caption-text {
@@ -244,11 +247,37 @@ select {
   border-top: 1px solid #4d4d4d;
 }
 .wrapper main footer > a {
+  text-align: center;
   color: #4d4d4d;
   text-transform: uppercase;
   font-size: 0.7rem;
 }
 
+@media screen and (max-width: 568px) {
+  .wrapper figure {
+    display: none;
+  }
+  .wrapper main {
+    position: initial;
+    width: 100vw;
+    height: 100vh;
+  }
+  .wrapper main header {
+    padding: 1rem 0 1.6rem;
+  }
+  .wrapper main header h1 {
+    font-size: 1.5rem;
+  }
+  .wrapper main header img {
+    width: 250px;
+  }
+  .wrapper main section > div {
+    gap: 0.6rem;
+  }
+  .wrapper main section > div button {
+    padding: 0.8rem 1.8rem;
+  }
+}
 .header {
   padding: 0;
   margin: 0;
