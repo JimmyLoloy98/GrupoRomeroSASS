@@ -58,7 +58,7 @@ select {
   }
 }
 .rom-header {
-  background: #BE4439;
+  background-image: linear-gradient(to right, #db5b3e, #d4553d, #cc4f3b, #c5493a, #bd4338);
   text-transform: capitalize;
   color: #fff;
 }
@@ -1231,6 +1231,7 @@ h1, h2 {
   background: #312f30;
   color: white;
   padding: 0.5rem 2rem;
+  margin-bottom: 0;
 }
 .rom-section .title2 {
   display: flex;
