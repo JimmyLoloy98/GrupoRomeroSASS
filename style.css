@@ -62,6 +62,9 @@ select {
   text-transform: capitalize;
   color: #fff;
 }
+.rom-header .button-menu-burguer {
+  display: none;
+}
 .rom-header .content-header {
   display: flex;
   flex-wrap: nowrap;
@@ -70,10 +73,111 @@ select {
   gap: 2rem;
   padding: 1rem 2rem;
 }
+.rom-header .content-header .logo {
+  width: 280px;
+}
 .rom-header .content-header .logo img {
-  width: 250px;
+  width: 100%;
+}
+.rom-header .login-icon {
+  position: absolute;
+  top: 3.5%;
+  right: 2%;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  padding: 8px 10px;
 }
 
+@media screen and (max-width: 568px) {
+  .rom-header .button-menu-burguer {
+    z-index: 2;
+    display: block;
+    position: absolute;
+    width: 180px;
+    top: 2%;
+    left: 2%;
+  }
+  .rom-header .button-menu-burguer .menu-btn {
+    display: none;
+  }
+  .rom-header .button-menu-burguer .menu-btn:checked ~ .menu {
+    max-height: 400px;
+  }
+  .rom-header .button-menu-burguer .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+  }
+  .rom-header .button-menu-burguer .menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+  }
+  .rom-header .button-menu-burguer .menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+  }
+  .rom-header .button-menu-burguer .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before, .rom-header .button-menu-burguer .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+  }
+  .rom-header .button-menu-burguer .menu-icon {
+    cursor: pointer;
+    float: left;
+    padding: 14px 6px;
+    position: relative;
+    user-select: none;
+  }
+  .rom-header .button-menu-burguer .menu-icon .navicon {
+    background: #ffffff;
+    display: block;
+    height: 3px;
+    position: relative;
+    transition: background 0.2s ease-out;
+    width: 22px;
+  }
+  .rom-header .button-menu-burguer .menu-icon .navicon:before, .rom-header .button-menu-burguer .menu-icon .navicon:after {
+    background: #ffffff;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all 0.2s ease-out;
+    width: 100%;
+  }
+  .rom-header .button-menu-burguer .menu-icon .navicon:before {
+    top: 6px;
+  }
+  .rom-header .button-menu-burguer .menu-icon .navicon:after {
+    top: -6px;
+  }
+  .rom-header .button-menu-burguer .menu {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    clear: both;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+  }
+  .rom-header .button-menu-burguer .menu li a {
+    display: block;
+    padding: 12px 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  .rom-header .button-menu-burguer li a:hover, .rom-header .button-menu-burguer .menu-btn:hover {
+    background-color: #999;
+  }
+  .rom-header .content-header {
+    flex-direction: column;
+    gap: 0;
+  }
+  .rom-header .content-header h1 {
+    font-size: 1.4rem;
+  }
+  .rom-header .content-header .logo {
+    width: 260px;
+  }
+  .rom-header .login-icon {
+    top: 2%;
+  }
+}
 .rom-section {
   display: flex;
   flex-direction: column;
@@ -1165,19 +1269,26 @@ h1, h2 {
   text-transform: uppercase;
   display: flex;
   justify-content: center;
+  font-family: "Lato";
   box-shadow: 4px 4px 6px 0 rgba(0, 0, 0, 0.25), -4px 0px 6px 0 rgba(0, 0, 0, 0.25);
 }
 .rom-nav > ul {
   display: flex;
+  align-items: center;
 }
 .rom-nav > ul li {
-  padding: 0.3rem 1rem;
+  padding: 0.1em 1em;
   font-weight: 300;
 }
 .rom-nav > ul li:not(:nth-child(1)) {
   border-left: 1px solid white;
 }
 
+@media screen and (max-width: 568px) {
+  .rom-nav {
+    display: none;
+  }
+}
 .dropdown-dark {
   border: 1px solid #fff;
   border-radius: 10px;
@@ -1215,11 +1326,15 @@ h1, h2 {
 .rom-brands {
   display: flex;
   flex-wrap: nowrap;
-  gap: 2rem;
   justify-content: space-evenly;
-  padding: 1rem;
+  align-items: center;
+  gap: 2rem;
+  padding: 0.8rem;
   margin-bottom: 2rem;
   background-color: #e5e5e5;
+}
+.rom-brands div {
+  color: #000;
 }
 
 .rom-section .title {

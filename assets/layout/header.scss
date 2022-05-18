@@ -4,6 +4,7 @@
 	color: #fff;
 	// position: sticky;
 	// top: 0;
+	.button-menu-burguer{ display: none; }
 	.content-header{
 		display: flex;
 		flex-wrap: nowrap;
@@ -12,9 +13,100 @@
 		gap: 2rem;
 		padding: 1rem 2rem;
 		.logo{
+			width: 280px;
 			img{
-				width: 250px;
+				width: 100%;
 			}
+		}
+	}
+	.login-icon{
+		position: absolute;
+		top: 3.5%;
+		right: 2%;
+		border: 1px solid $white;
+		border-radius: 8px;
+		padding: 8px 10px;
+	}
+}
+
+@include mobile{
+	.rom-header{
+		.button-menu-burguer {
+			z-index: 2;
+			display: block;
+			position: absolute;
+			width: 180px;
+			top: 2%;
+			left: 2%;
+			.menu-btn {
+				display: none;
+				&:checked ~ .menu { max-height: 400px; }
+				&:checked ~ .menu-icon .navicon { 
+					background: transparent;
+					&:before { transform: rotate(-45deg); }
+					&:after { transform: rotate(45deg); }
+				}
+				&:checked ~ .menu-icon:not(.steps) .navicon:before,
+				&:checked ~ .menu-icon:not(.steps) .navicon:after { top: 0; }
+			}
+			
+			.menu-icon {
+				cursor: pointer;
+				float: left;
+				padding: 14px 6px;
+				position: relative;
+				user-select: none;
+				.navicon {
+					background: $white;
+					display: block;
+					height: 3px;
+					position: relative;
+					transition: background .2s ease-out;
+					width: 22px;
+					&:before, &:after {
+						background: $white;
+						content: '';
+						display: block;
+						height: 100%;
+						position: absolute;
+						transition: all .2s ease-out;
+						width: 100%;
+					}
+					&:before{ top: 6px; }
+					&:after{ top: -6px; }
+				}
+			}
+			
+			.menu {
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: $gray-box;
+				border-radius: 10px;
+				clear: both;
+				max-height: 0;
+				transition: max-height .2s ease-out;
+				li a {
+					display: block;
+					padding: 12px 20px;
+					text-decoration: none;
+					text-transform: capitalize;
+				}
+			}
+			li a:hover, .menu-btn:hover { background-color: $gray-text; }
+		}
+
+		.content-header{
+			flex-direction: column;
+			gap: 0;
+			h1{ font-size: 1.4rem; }
+			.logo{
+				width: 260px;
+			}
+		}
+
+		.login-icon{
+			top: 2%;
 		}
 	}
 }
