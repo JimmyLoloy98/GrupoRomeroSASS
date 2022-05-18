@@ -25,3 +25,77 @@
     }
   }
 }
+
+@include mobile{
+  .main-title{
+    margin-top: 3rem;
+    margin-left: 2rem;
+    h1{
+      width: 50%;
+      height: 2rem;
+      background-color: black;
+      color: white;
+      font-size: 1.3rem;
+      margin-bottom: -0.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+  }
+  .dropdown-container{
+    margin-top: 2rem;
+  }
+  .wrapper-section1{
+    margin-top: 0.5rem;
+    width: 85%;
+    .content{
+      margin-bottom: -1.5rem;
+      .div-right{
+        width: 45%;
+        span{
+          font-size: 0.7rem;
+        }
+        figure{
+          margin-top: 0.4rem;
+        }
+      }
+      .div-left{
+        width: 50%;
+        .tagline{
+          span{
+            font-size: 0.8rem;
+          }
+        }
+        h2{
+          font-size: 1.1rem;
+          margin-top: 0.3rem;
+          margin-bottom: 0.3rem;
+          text-align: justify;
+        }
+        span{
+          font-size: 00.8rem;
+        }
+      }
+    }
+    .boton-1{
+      a{
+        font-size: 0.8rem;
+      }
+    }
+  }
+  .div-below{
+    > div{
+      width: 100vw;
+      display: flex;
+      margin: -1.5rem auto;
+      justify-content: center;
+      a{
+        text-align: center;
+        font-size: 0.8rem;
+
+      }
+    }
+  }
+
+}
