@@ -741,13 +741,27 @@ h1, h2 {
   width: 70%;
 }
 
+.div-below > div {
+  display: flex;
+  margin: -1.5rem auto;
+  justify-content: center;
+}
+.div-below > div a {
+  text-align: center;
+}
+
 @media screen and (max-width: 568px) {
+  .main-title {
+    margin-left: 2rem;
+  }
+
   .wrapper-section1 {
     margin-top: 0.5rem;
     width: 90%;
   }
   .wrapper-section1 .content {
     margin-bottom: -1.5rem;
+    gap: 2rem;
   }
   .wrapper-section1 .content .div-right {
     width: 50%;
@@ -759,7 +773,7 @@ h1, h2 {
     margin-top: 0.4rem;
   }
   .wrapper-section1 .content .div-left {
-    width: 45%;
+    width: 50%;
   }
   .wrapper-section1 .content .div-left .tagline span {
     font-size: 0.8rem;
@@ -778,14 +792,7 @@ h1, h2 {
     font-size: 0.8rem;
   }
 
-  .div-below > div {
-    width: 100vw;
-    display: flex;
-    margin: -1.5rem auto;
-    justify-content: center;
-  }
   .div-below > div a {
-    text-align: center;
     font-size: 0.8rem;
   }
 }
