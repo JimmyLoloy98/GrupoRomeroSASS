@@ -25,3 +25,59 @@
     }
   }
 }
+
+@include mobile{
+  .wrapper-section1{
+    margin-top: 0.5rem;
+    width: 90%;
+    .content{
+      margin-bottom: -1.5rem;
+      .div-right{
+        width: 50%;
+        span{
+          font-size: 0.7rem;
+        }
+        figure{
+          margin-top: 0.4rem;
+        }
+      }
+      .div-left{
+        width: 45%;
+        .tagline{
+          span{
+            font-size: 0.8rem;
+          }
+        }
+        h2{
+          font-size: 1.1rem;
+          margin-top: 0.3rem;
+          margin-bottom: 0.3rem;
+          text-align: justify;
+        }
+        span{
+          font-size: 0.8rem;
+        }
+      }
+    }
+    
+  }
+  .boton-1{
+    a{
+      font-size: 0.8rem;
+    }
+  }
+  .div-below{
+    > div{
+      width: 100vw;
+      display: flex;
+      margin: -1.5rem auto;
+      justify-content: center;
+      a{
+        text-align: center;
+        font-size: 0.8rem;
+
+      }
+    }
+  }
+
+}

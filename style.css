@@ -741,6 +741,54 @@ h1, h2 {
   width: 70%;
 }
 
+@media screen and (max-width: 568px) {
+  .wrapper-section1 {
+    margin-top: 0.5rem;
+    width: 90%;
+  }
+  .wrapper-section1 .content {
+    margin-bottom: -1.5rem;
+  }
+  .wrapper-section1 .content .div-right {
+    width: 50%;
+  }
+  .wrapper-section1 .content .div-right span {
+    font-size: 0.7rem;
+  }
+  .wrapper-section1 .content .div-right figure {
+    margin-top: 0.4rem;
+  }
+  .wrapper-section1 .content .div-left {
+    width: 45%;
+  }
+  .wrapper-section1 .content .div-left .tagline span {
+    font-size: 0.8rem;
+  }
+  .wrapper-section1 .content .div-left h2 {
+    font-size: 1.1rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    text-align: justify;
+  }
+  .wrapper-section1 .content .div-left span {
+    font-size: 0.8rem;
+  }
+
+  .boton-1 a {
+    font-size: 0.8rem;
+  }
+
+  .div-below > div {
+    width: 100vw;
+    display: flex;
+    margin: -1.5rem auto;
+    justify-content: center;
+  }
+  .div-below > div a {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+}
 .buttons-top {
   width: 80%;
   margin: 3.5rem auto 2.8rem;
