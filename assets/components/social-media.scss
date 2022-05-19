@@ -54,3 +54,16 @@
 		}
 	}
 }
+
+@include mobile{
+	.rom-social-media-news{
+		flex-direction: column;
+		.sm-facebook{
+			margin-top: 1.5rem;
+		}
+		.social-network ul{
+			padding: 0 2rem;
+			max-height: 170px;
+		}
+	}
+}

@@ -12,3 +12,12 @@
     color: $primary;
   }
 }
+
+@include mobile{
+  .content-article{
+    .pricing-content{
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+  }
+}

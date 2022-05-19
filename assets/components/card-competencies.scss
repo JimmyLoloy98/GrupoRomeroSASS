@@ -1,27 +1,46 @@
-.rom-card-competencies{
-	max-width: 240px;
-	display: flex;
-	flex-direction: column;
-  span{
-    margin-left: 1rem;
-    margin-bottom: .2rem;
-    color: $gray-text;
-  }
-  .rom-card-body{
-    padding: 1.5rem 1rem;
-    background-color: $primary;
-    border-radius: 20px;
-    p{
-      margin: 0;
-      font-size: 1.4rem;
-      color: $white;
+.brand-competencies-slide{
+  .rom-card-competencies{
+    max-width: 240px;
+    display: flex;
+    flex-direction: column;
+    span{
+      margin-left: 1rem;
+      margin-bottom: .2rem;
+      color: $gray-text;
     }
-    a{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-top: .8rem;
-      color: $white;
+    .rom-card-body{
+      padding: 1.5rem 1rem;
+      background-color: $primary;
+      border-radius: 20px;
+      p{
+        margin: 0;
+        font-size: 1.4rem;
+        color: $white;
+      }
+      a{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: .8rem;
+        font-weight: bold;
+        color: $white;
+        i{ color: $white; }
+      }
     }
   }
+}
+
+@include mobile{
+ .brand-competencies-slide{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   > a {
+      display: none;
+   }
+   .rom-card-competencies{
+     .rom-card-body p{
+        font-size: 1.2rem;
+     }
+   }
+ }
 }

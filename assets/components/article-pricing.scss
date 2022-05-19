@@ -23,7 +23,9 @@
   .list-news-title{
     li{
       list-style: disc;
+      color: $primary;
       p{
+        color: #000;
         margin-left: .6rem;
         margin-bottom: .4rem;
       }
@@ -33,5 +35,21 @@
         font-size: .8rem;
       }
     }
+  }
+}
+
+@include mobile{
+  .column1-1{
+    max-width: 100%;
+    img{
+      max-width: 40%;
+    }
+    div p{
+      font-size: 1.2rem;
+      // font-weight: bold;
+    }
+  }
+  .column2-1{
+    max-width: 100%;
   }
 }
