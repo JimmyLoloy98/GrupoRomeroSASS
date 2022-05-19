@@ -433,7 +433,7 @@ select {
   justify-content: center;
 }
 .div-container .div-content .div-1 img {
-  width: 90%;
+  width: 100%;
   height: auto;
   border-radius: 8px;
 }
@@ -492,6 +492,45 @@ select {
   margin-left: 0.6rem;
 }
 
+@media screen and (max-width: 568px) {
+  .div-container {
+    width: 90%;
+  }
+  .div-container h2 {
+    font-size: 1.5rem;
+  }
+  .div-container .div-content {
+    display: initial;
+  }
+  .div-container .div-content .div-1 {
+    flex-direction: initial;
+    width: 100%;
+    gap: 2rem;
+  }
+  .div-container .div-content .div-1 img {
+    width: 50%;
+  }
+  .div-container .div-content .div-1 > div {
+    width: 50%;
+  }
+  .div-container .div-content .div-1 > div h3 {
+    font-size: 1.2rem;
+  }
+  .div-container .div-content .div-1 > div span {
+    font-size: 0.8rem;
+  }
+  .div-container .div-content .div-2 {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .div-container .div-content .div-2 h3 {
+    font-size: 1.3rem;
+  }
+  .div-container .div-content .div-2 ul {
+    height: 200px;
+    overflow: scroll;
+  }
+}
 .time {
   font-size: 0.85rem;
   color: #999;
