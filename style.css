@@ -192,11 +192,15 @@ select {
 .rom-section .section-main > article .content-article-columns {
   margin: 3rem 0;
   display: flex;
+}
+.rom-section .section-main > article .content-article-columns .container-overflow {
+  display: flex;
   justify-content: space-between;
 }
 .rom-section .section-main > article .content-article-columns a {
   display: flex;
   align-items: center;
+  padding: 0.5em;
 }
 .rom-section .section-main > article .content-article-columns a i {
   color: #BE4439;
@@ -240,6 +244,54 @@ select {
   margin-bottom: 1rem;
 }
 
+@media screen and (max-width: 568px) {
+  .rom-section .section-main {
+    flex-direction: column;
+  }
+  .rom-section .section-main article {
+    width: 100%;
+  }
+  .rom-section .section-main article .content-article-columns {
+    margin-top: 1.5em;
+    margin-bottom: 0;
+  }
+  .rom-section .section-main article .content-article-columns .container-overflow {
+    display: flex;
+    overflow-x: auto;
+  }
+  .rom-section .section-main article .content-article-columns .container-overflow .article-column {
+    overflow-x: auto;
+    min-width: 200px;
+  }
+  .rom-section .section-main article .content-article-columns .container-overflow .article-column h2 {
+    font-size: 1.2em;
+  }
+  .rom-section .section-main .aside-tv {
+    border-radius: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    padding: 1.2em 1em;
+  }
+  .rom-section .section-main .aside-tv .title3 {
+    padding: 0 1em;
+  }
+  .rom-section .section-main .aside-tv .body-news {
+    padding: 0;
+    display: flex;
+    gap: 1.5em;
+  }
+  .rom-section .section-main .aside-tv .body-news img {
+    border-radius: 10px;
+  }
+  .rom-section .section-main .aside-tv .view-all-button {
+    color: #ffffff;
+    width: 100%;
+  }
+}
 .wrapper figure {
   width: 60%;
   margin: 0;
@@ -2067,7 +2119,8 @@ h1, h2 {
 }
 .article-column:not(:nth-child(0)) {
   border-right: 2px solid #312f30;
-  padding-right: 1.2rem;
+  margin-right: 1.2em;
+  padding-right: 1.2em;
 }
 
 footer .footer-head {

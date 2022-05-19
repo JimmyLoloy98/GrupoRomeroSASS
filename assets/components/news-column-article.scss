@@ -43,6 +43,7 @@
 
   &:not(:nth-child(0)){
     border-right: 2px solid $black;
-    padding-right: 1.2rem;
+    margin-right: 1.2em;
+    padding-right: 1.2em;
   }
 }
