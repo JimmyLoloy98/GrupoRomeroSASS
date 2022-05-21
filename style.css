@@ -1744,8 +1744,9 @@ h1, h2 {
 .rom-card-new .rom-card-body .rom-brand {
   display: flex;
   color: white;
-  background-color: #BE4439;
-  padding: 0.4rem 1rem;
+  background-color: #9a1d21;
+  width: fit-content;
+  padding: 0.35rem 1rem;
 }
 .rom-card-new .rom-card-body h3 {
   text-transform: capitalize;
