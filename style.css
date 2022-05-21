@@ -914,11 +914,32 @@ h1, h2 {
     font-size: 0.8rem;
   }
 }
-.buttons-top {
+.buttons-top, .buttons-top-actually {
   width: 80%;
   margin: 3.5rem auto 2.8rem;
 }
-.buttons-top button {
+.buttons-top button, .buttons-top-actually button {
+  width: 10rem;
+  height: 2.5rem;
+  font-size: 1.6rem;
+  border: none;
+  margin-right: 0.5rem;
+  background-color: #999;
+}
+.buttons-top button:hover, .buttons-top-actually button:hover {
+  background-color: #4d4d4d;
+  color: white;
+}
+.buttons-top hr, .buttons-top-actually hr {
+  margin: 0;
+}
+
+.buttons-top-actually {
+  width: 80%;
+  margin: 3.5rem auto 2.8rem;
+  border-bottom: 4px solid #312f30;
+}
+.buttons-top-actually button {
   width: 10rem;
   height: 2.5rem;
   font-size: 1.6rem;
@@ -926,11 +947,11 @@ h1, h2 {
   margin-right: 0.5rem;
   background-color: #e5e5e5;
 }
-.buttons-top button:hover {
+.buttons-top-actually button:hover {
   background-color: #4d4d4d;
   color: white;
 }
-.buttons-top hr {
+.buttons-top-actually hr {
   margin: 0;
 }
 
