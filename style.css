@@ -1368,6 +1368,15 @@ h1, h2 {
   border-radius: 8px;
   width: 100%;
 }
+.container-aside-content .card-dayli .description-image {
+  margin: 0;
+  color: #312f30;
+}
+
+.time-dark {
+  color: #999;
+  font-size: 0.85em;
+}
 
 .wrapper-dark {
   background-color: #312f30;
