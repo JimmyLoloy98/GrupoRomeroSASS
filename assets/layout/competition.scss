@@ -37,3 +37,9 @@
 .divider{
   margin: 0;
 }
+
+@include mobile{
+  .title-header{
+    font-size: 1.2em;
+  }
+}
