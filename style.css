@@ -1062,6 +1062,7 @@ h1, h2 {
   padding: 0.8rem;
   border-radius: 10px;
   max-width: 22%;
+  min-width: 22%;
   max-height: 14rem;
 }
 .section-editorial .slides-editorials .container-card .time-editorial {
@@ -1079,7 +1080,7 @@ h1, h2 {
   height: 2.8rem;
 }
 .section-editorial .slides-editorials .container-card figure img {
-  width: 90%;
+  height: 100%;
   height: fit-content;
 }
 .section-editorial .slides-editorials .container-card span {
