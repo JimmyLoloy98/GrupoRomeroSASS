@@ -2199,9 +2199,12 @@ footer .footer-body {
   background-color: #312f30;
   padding: 3rem 5rem;
   display: flex;
+  justify-content: space-between;
+  gap: 5rem;
 }
 footer .footer-body .footer-body-column1 {
   width: 30%;
+  max-width: 400px;
 }
 footer .footer-body .footer-body-column1 > div span {
   display: block;
@@ -2215,17 +2218,17 @@ footer .footer-body .footer-body-column1 > span {
   margin-top: 2.5rem;
   display: flex;
   flex-direction: column;
-  margin-right: 3.4rem;
 }
 footer .footer-body .footer-body-column1 > span img {
   margin-top: 0.6rem;
   width: 100%;
+  max-width: 300px;
 }
 footer .footer-body .footer-body-column2 {
   width: 70%;
+  max-width: 800px;
   display: flex;
   justify-content: space-between;
-  gap: 0.8em;
 }
 footer .footer-body .footer-body-column2 ul {
   display: flex;
@@ -2252,7 +2255,6 @@ footer .footer-body .footer-body-column2 ul {
     border-top: 1px dashed #ffffff;
     padding-top: 1rem;
     width: 100%;
-    margin-top: 1.6rem;
     display: flex;
     justify-content: space-between;
   }
@@ -2269,6 +2271,7 @@ footer .footer-body .footer-body-column2 ul {
   footer .footer-body .footer-body-column2 {
     width: 100%;
     flex-wrap: wrap;
+    margin: 0;
   }
   footer .footer-body .footer-body-column2 ul {
     font-size: 0.8em;
