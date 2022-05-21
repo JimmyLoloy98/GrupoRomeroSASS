@@ -937,7 +937,8 @@ h1, h2 {
 .buttons-top {
   width: 85%;
   display: flex;
-  border-bottom: 4px solid #e9b02b;
+  flex-wrap: wrap;
+  border-bottom: 4px solid #e5e5e5;
 }
 .buttons-top button {
   display: flex;
@@ -950,8 +951,34 @@ h1, h2 {
   margin-right: 0.8rem;
   font-size: 2rem;
 }
-.buttons-top button:hover {
+.buttons-top .btn-yellow .yellow {
+  color: #e9b02b;
+}
+.buttons-top .btn-yellow:hover {
   background-color: #e9b02b;
+  color: #312f30;
+}
+.buttons-top .btn-yellow:hover i {
+  color: #312f30;
+}
+.buttons-top .btn-blue .blue {
+  color: #0062ad;
+}
+.buttons-top .btn-blue:hover {
+  background-color: #0062ad;
+  color: #ffffff;
+}
+.buttons-top .btn-blue:hover i {
+  color: #ffffff;
+}
+.buttons-top .btn-green .green {
+  color: #73a664;
+}
+.buttons-top .btn-green:hover {
+  background-color: #73a664;
+  color: #312f30;
+}
+.buttons-top .btn-green:hover i {
   color: #312f30;
 }
 
@@ -964,11 +991,11 @@ h1, h2 {
 .div-container1 .div-left figure {
   display: block;
   width: 100%;
-  height: 100%;
+  height: auto;
+  text-align: start;
 }
 .div-container1 .div-left figure img {
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
   border-radius: 10px;
 }
 .div-container1 .div-left .time, .div-container1 .div-left h2, .div-container1 .div-left .dayli {
