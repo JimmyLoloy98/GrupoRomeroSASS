@@ -1683,68 +1683,8 @@ h1, h2 {
     margin-top: 0;
   }
 }
-.rom-social-media-news {
-  display: flex;
-  color: white;
-  background-color: #312f30;
-  padding: 1.6rem 1rem;
-  border-radius: 2rem;
-  margin-top: 2rem;
-  margin-bottom: 3rem;
-}
-.rom-social-media-news .social-network ul {
-  list-style: none;
-  padding: 0rem 4rem;
-  max-height: 220px;
-  overflow-y: auto;
-}
-.rom-social-media-news .social-network ul li span {
-  color: aqua;
-}
-.rom-social-media-news .social-network ul li .date-fb {
-  color: blue;
-}
-.rom-social-media-news .social-network header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-  text-transform: capitalize;
-}
-.rom-social-media-news .social-network header .icon-social-network {
-  width: 3rem;
-  height: 3rem;
-  padding: 0.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  border: 1px solid green;
-}
-.rom-social-media-news .social-network header .icon-social-network span {
-  font-size: 1.8rem;
-  line-height: 0;
-}
-.rom-social-media-news .social-network header h3 {
-  font-size: 1.6rem;
-}
-.rom-social-media-news .social-network ul li p {
-  margin-bottom: 0.5rem;
-}
-
-@media screen and (max-width: 568px) {
-  .rom-social-media-news {
-    flex-direction: column;
-  }
-  .rom-social-media-news .sm-facebook {
-    margin-top: 1.5rem;
-  }
-  .rom-social-media-news .social-network ul {
-    padding: 0 2rem;
-    max-height: 170px;
-  }
-}
 .brand-activities-slide {
+  margin-top: 2em;
   display: flex;
   gap: 2rem;
   justify-content: center;
