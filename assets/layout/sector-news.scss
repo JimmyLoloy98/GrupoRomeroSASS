@@ -9,6 +9,9 @@
       .content-article-columns{
         margin: 3rem 0;
         display: flex;
+        .fix-margin{
+          margin-right: 0;
+        }
         .container-overflow{
           display: flex;
           justify-content: space-between;
@@ -21,9 +24,7 @@
         }
         // -> news-column-article.scss
       }
-      .content-article-columns-actually{
-        justify-content: space-evenly;
-      }
+      // aside-opinion.scss
     }
   }
   .section-foot{
@@ -65,6 +66,7 @@
 @include mobile{
   .rom-section{
     .section-main{
+      margin-bottom: 1.5em;
       flex-direction: column;
       article{
         width: 100%;
@@ -107,6 +109,9 @@
           width: 100%;
         }
       }
+    }
+    .section-foot{
+      display: none;
     }
   }
 }

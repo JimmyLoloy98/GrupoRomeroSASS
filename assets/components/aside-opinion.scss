@@ -31,3 +31,27 @@
     }
   }
 }
+.content-article-columns-actually{
+  // display: flex;
+  justify-content: space-between;
+}
+
+@include mobile{
+  .aside-opinion{
+    width: 100%;
+    .content-aside{
+      margin-bottom: 1.5em;
+    }
+  }
+  .content-article-columns-actually{
+    width: 100%;
+    overflow-x: auto;
+    .article-column{
+      min-width: 210px;
+      > h2{
+        font-size: 1.2rem;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
