@@ -104,3 +104,9 @@
   width: 45%;
   margin: 0 auto;
 }
+
+@include mobile{
+  .div-container1{
+    width: 90%;
+  }
+}

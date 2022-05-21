@@ -27,7 +27,7 @@
 }
 
 .div-container2{
-  width: 80%;
+  width: 85%;
   margin: 3rem auto;
   display: flex;
   flex-direction: column;
@@ -39,7 +39,50 @@
 }
 
 @include mobile{
-  .title-header{
-    font-size: 1.2em;
+  .main-title{
+    h1{
+      font-size: 1.8rem;
+    }
+  }
+  .div-container1{
+    margin-top: 1.5rem;
+    .content-competition{
+      margin: 0;
+      width: 50%;
+      h1{
+        font-size: 1.1rem;
+        margin-top: 0.3rem;
+        margin-bottom: 0.3rem;
+      }
+    }
+  }
+  .boton-1{
+    margin-top: 0rem;
+    a{
+      font-size: 0.8rem;
+    }
+  }
+  .tagline{
+    margin-bottom: 0.4rem;
+    span{
+      font-size: 0.7rem;
+    }
+  }
+  .time{
+    font-size: 0.7rem;
+  }
+  .dayli{
+    font-size: 0.8rem;
+  }
+  .div-container2{
+    margin-top: 1rem;
+    width: 90%;
+  }
+  .div-1{
+    h2{
+      font-size: 1.2rem;
+      margin-top: 0.3rem;
+      margin-bottom: 0.3rem;
+    }
   }
 }
