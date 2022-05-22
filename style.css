@@ -1915,6 +1915,10 @@ h1, h2 {
   font-size: 0.9rem;
   color: #999;
 }
+.aside-tv .view-all-button {
+  margin-right: 2.5em;
+  color: #ffffff;
+}
 
 .aside-opinion {
   width: 28%;
