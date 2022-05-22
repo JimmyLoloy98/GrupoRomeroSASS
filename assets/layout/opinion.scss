@@ -11,50 +11,53 @@
 	.slides-editorials {
 		display: flex;
 		align-items: center;
-		justify-content: space-around;
-		gap: 2rem;
-		i{
-			color: $primary;
+		// gap: 1rem;
+		a{
+			padding: .3em .4em; 
+			i{ color: $primary; }
 		}
-		.container-card {
-			// background: $yellow;
-			padding: .8rem;
-			border-radius: 10px;
-			max-width: 22%;
-			min-width: 22%;
-			max-height: 14rem;
-			.time-editorial{
-				display: flex;
-				color: $gray-container;
-				font-size: .9rem;
-				margin: 0;
-				margin-bottom: .6rem;
-			}
-			figure{
-				margin: 0;
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				height: 2.8rem;
-				img{
-					height: 100%;
-					height: fit-content;
+		.overflow-horizontal{
+			display: flex;
+			justify-content: space-evenly;
+			gap: 1.5em;
+			overflow-x: auto;
+			.container-card {
+				padding: .8rem;
+				border-radius: 10px;
+				max-width: 22%;
+				min-width: 110px;
+				max-height: 14rem;
+				.time-editorial{
+					display: flex;
+					color: $gray-container;
+					font-size: .85rem;
+					margin: 0;
+					margin-bottom: .6rem;
 				}
-			}
-			span{
-				display: block;
-				margin-top: 1rem;
-				text-align: center;
-				p {
-					font-weight: bolder;
-					margin: .4rem 0;
+				figure{
+					margin: 0;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					height: 2.8rem;
+					img{
+						height: 100%;
+						height: fit-content;
+					}
+				}
+				span{
+					display: block;
+					margin-top: 1rem;
+					text-align: center;
+					p {
+						font-weight: bolder;
+						margin: .4rem 0;
+					}
 				}
 			}
 		}
 	}
 }
-
-
 .Section-Authors{
 	h2 {
 		margin: 2rem 0;
@@ -66,16 +69,18 @@
 		.details-author{
 			display: flex;
 			border-radius: 10px;
-			border: 1px solid white;
 			background: $gray-box;
 			figure{
+				display: flex;
+				align-items: center;
 				width: 20%;
-				margin: 0;
 				margin: .4rem 0 .3rem;
 				text-align: center;
 				img {
+					width: 55%;
+					margin: 0 auto;
 					border-radius: 50%;
-					height: 6rem;
+					height: auto;
 				}
 			}
 			.date-general {
@@ -108,3 +113,50 @@
 	}
 }
 
+
+@include mobile{
+	.container-general{
+		width: 90%;
+	}
+	.section-editorial{
+		.slides-editorials{
+			.overflow-horizontal{
+				justify-content: space-between;
+				.container-card{
+					padding: .5em;
+					border-radius: 6px;
+					.time-editorial{
+						font-size: .75rem;
+					}
+					span > p{
+						font-size: .75rem;
+					}
+				}	
+			}
+		}
+	}
+	.Section-Authors .container-card-author{
+		width: 100%;
+		.details-author{
+			padding-right: .6em;
+			figure{
+				width: 15%;
+				margin-left: .5em;
+				img{ width: 100%;}
+			}
+			.date-general{
+				margin-left: .6em;
+				padding: .5em 0;
+				.date h2{
+					font-size: 1em;
+				}
+				.date p{
+					font-size: .85em;
+				}
+				.text{
+					font-size: .85em;
+				}
+			}
+		}
+	}
+}
