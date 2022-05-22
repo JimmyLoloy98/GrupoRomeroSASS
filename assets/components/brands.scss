@@ -11,3 +11,9 @@
 		color: #000;
 	}
 }
+
+@include mobile{
+	.rom-brands {
+		display: none;
+	}
+}
