@@ -77,3 +77,82 @@
   width: 45%;
   margin: 0 auto;
 }
+
+@include mobile{
+  .main-title{
+    h1{
+      font-size: 1.5rem
+    }
+  }
+  .buttons-top{
+    width: 90%;
+    button{
+      font-size: 1rem;
+      i{
+        font-size: 1rem;
+      }
+    }
+    
+  }
+  .div-container1{
+    width: 90%;
+    display: initial;
+    .div-left{
+      margin: auto;
+      width: 90%;
+      > div{
+        display: flex;
+        gap: 1.5rem;
+        figure{
+          width: 50%;
+        }
+        >div{
+          width: 50%;
+        }
+      }
+      .time, .dayli{
+        font-size: 0.7rem;
+      }
+      h2{
+        font-size: 1rem;
+      }
+    }
+    .div-right{
+      margin: auto;
+      width: 90%;
+      .div-left-1{
+        
+      }
+      .div-left-right{
+        width: 50%;
+        .date{
+          font-size: 0.7rem;
+        }
+      }
+      .div-left-left{
+        width: 50%;
+        h3{
+          font-size: 0.9rem;
+        }
+        .dayli{
+          font-size: 0.7rem;
+        }
+      }
+    }
+  }
+  .boton-1{
+    font-size: 0.7rem;
+  }
+  .div-container2{
+    width: 90%;
+    margin-top: 2rem;
+  }
+  .div-1{
+    .time, .dayli{
+      font-size: 0.7rem;
+    }
+    h2{
+      font-size: 1rem;
+    }
+  }
+}
