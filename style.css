@@ -1461,7 +1461,8 @@ h1, h2 {
   margin: 8rem 0;
   margin-right: 0;
 }
-.section-editorial-column h3 {
+.section-editorial-column .title-section-editorial {
+  color: #000;
   font-size: 1.3rem;
   border-bottom: 3px solid #312f30;
 }
@@ -1471,6 +1472,8 @@ h1, h2 {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
+  max-width: 400px;
+  min-width: 300px;
 }
 .section-editorial-column .container-card-editorials .container-card {
   padding: 0.8rem;
@@ -1506,6 +1509,32 @@ h1, h2 {
   margin: 0.4rem 0;
 }
 
+@media screen and (max-width: 568px) {
+  .dayli-author figure {
+    width: 120px;
+  }
+  .dayli-author .description h3 {
+    font-size: 1.1em;
+  }
+  .dayli-author .description p {
+    font-size: 0.85em;
+  }
+
+  .section-editorial-column {
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+  }
+  .section-editorial-column .container-card-editorials {
+    justify-content: space-between;
+    flex-direction: row;
+    overflow-x: auto;
+    padding: 0;
+  }
+  .section-editorial-column .container-card-editorials .container-card {
+    min-width: 180px;
+  }
+}
 .container-aside-content {
   width: 90%;
   margin-top: 1.5rem;
