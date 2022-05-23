@@ -99,28 +99,26 @@
 
 @include mobile{
   .div-container{
-    h2{
-      font-size: 1.5rem;
-    }
     width: 90%;
+    h2{
+      font-size: 1.3rem;
+      margin-bottom: 0;
+    }
     .div-content{
       display: initial;
       .div-1{
        flex-direction: initial;
        width: 100%;
-       gap: 2rem;
-       img{
-         width: 50%;
-       }
+       align-items: center;
+       gap: 1em;
+       img{ width: 50%; }
        > div{
          width: 50%;
          h3{
-           font-size: 1.2rem;
+           font-size: 1.1rem;
+           text-align: start;
          }
-         span{
-           font-size: 0.8rem;
-
-         }
+         span{ font-size: 0.8rem; }
        }
         
       }
