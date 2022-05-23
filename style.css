@@ -858,6 +858,7 @@ h1, h2 {
 .buttons-top {
   width: 85%;
   display: flex;
+  flex-wrap: wrap;
   border-bottom: 4px solid #e9b02b;
 }
 .buttons-top button {
@@ -936,17 +937,18 @@ h1, h2 {
 
 @media screen and (max-width: 568px) {
   .main-title h1 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .buttons-top {
     width: 90%;
+    margin: 1.5em 0 2em 2em;
   }
   .buttons-top button {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .buttons-top button i {
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
 
   .div-container1 {
@@ -981,7 +983,7 @@ h1, h2 {
     width: 50%;
   }
   .div-container1 .div-right .div-left-right .date {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
   .div-container1 .div-right .div-left-left {
     width: 50%;

@@ -1,6 +1,7 @@
 .buttons-top{
   width: 85%;
   display: flex;
+  flex-wrap: wrap;
   border-bottom: 4px solid $yellow2;
   button{
     display: flex;
@@ -79,20 +80,14 @@
 }
 
 @include mobile{
-  .main-title{
-    h1{
-      font-size: 1.5rem
-    }
-  }
+  .main-title h1{ font-size: 1.3rem; }
   .buttons-top{
     width: 90%;
+    margin: 1.5em 0 2em 2em;
     button{
-      font-size: 1rem;
-      i{
-        font-size: 1rem;
-      }
+      font-size: 1.2rem;
+      i{ font-size: 1.4rem; }
     }
-    
   }
   .div-container1{
     width: 90%;
@@ -103,56 +98,33 @@
       > div{
         display: flex;
         gap: 1.5rem;
-        figure{
-          width: 50%;
-        }
-        >div{
-          width: 50%;
-        }
+        figure{ width: 50%; }
+        > div{  width: 50%; }
       }
-      .time, .dayli{
-        font-size: 0.7rem;
-      }
-      h2{
-        font-size: 1rem;
-      }
+      .time, .dayli{  font-size: 0.7rem; }
+      h2{ font-size: 1rem;  }
     }
     .div-right{
       margin: auto;
       width: 90%;
-      .div-left-1{
-        
-      }
       .div-left-right{
         width: 50%;
-        .date{
-          font-size: 0.7rem;
-        }
+        .date{ font-size: 0.8rem; }
       }
       .div-left-left{
         width: 50%;
-        h3{
-          font-size: 0.9rem;
-        }
-        .dayli{
-          font-size: 0.7rem;
-        }
+        h3{ font-size: 0.9rem;  }
+        .dayli{  font-size: 0.7rem; }
       }
     }
   }
-  .boton-1{
-    font-size: 0.7rem;
-  }
+  .boton-1{  font-size: 0.7rem;  }
   .div-container2{
     width: 90%;
     margin-top: 2rem;
   }
   .div-1{
-    .time, .dayli{
-      font-size: 0.7rem;
-    }
-    h2{
-      font-size: 1rem;
-    }
+    .time, .dayli{  font-size: 0.7rem;  }
+    h2{ font-size: 1rem;  }
   }
 }
