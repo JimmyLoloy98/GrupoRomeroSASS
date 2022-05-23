@@ -11,13 +11,15 @@ footer{
     }
   }
   .footer-body{
-    // margin-top: 1.4rem;
-    color: #fff;
+    color: #fff; 
     background-color: $black;
     padding: 3rem 5rem;
     display: flex;
+    justify-content: space-between;
+    gap: 5rem;
     .footer-body-column1{
       width: 30%;
+      max-width: 400px;
       > div{
         span{
           display: block;
@@ -32,15 +34,16 @@ footer{
         margin-top: 2.5rem;
         display: flex;
         flex-direction: column;
-        margin-right: 3.4rem;
         img{
           margin-top: .6rem;
           width: 100%;
+          max-width: 300px;
         }
       }
     }
     .footer-body-column2{
       width: 70%;
+      max-width: 800px;
       display: flex;
       justify-content: space-between;
       ul{
@@ -71,14 +74,11 @@ footer{
         border-top: 1px dashed $white;
         padding-top: 1rem;
         width: 100%;
-        margin-top: 1.6rem;
         display: flex;
         justify-content: space-between;
-        > div{
-          span{
+        > div span{
             font-size: .8em;
           }
-        }
         > span{
           font-size: .8em;
           margin: 0;
@@ -89,6 +89,8 @@ footer{
       }
       .footer-body-column2{
         width: 100%;
+        flex-wrap: wrap;
+        margin: 0;
         ul{
           font-size: .8em;
         }

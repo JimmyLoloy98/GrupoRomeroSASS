@@ -15,8 +15,9 @@
 		.rom-brand{
 			display: flex;
 			color: white;
-			background-color: $primary;
-			padding: .4rem 1rem;
+			background-color: $red;
+			width: fit-content;
+			padding: .35rem 1rem;
 		}
 		h3{
 			text-transform: capitalize;

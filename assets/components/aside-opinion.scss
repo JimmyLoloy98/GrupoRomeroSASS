@@ -1,16 +1,15 @@
 .aside-opinion{
-  width: 30%;
+  width: 28%;
   background-color: $gray-box;
   border-radius: 36px;
   padding: 2rem 0 0;
   .content-aside{
     padding: 2rem 1rem 0;
     .overflow-vertical{
-      max-height: 465px;
       overflow-y: auto;
       display: flex;
       flex-direction: column;
-      gap: .25rem;
+      gap: .25em;
       // content-aside-opinion.scss
       &::-webkit-scrollbar{
         width: 6px;
@@ -27,7 +26,31 @@
       justify-content: flex-end;
       color: $primary;
       margin-top: 1.5rem;
-      i{ margin-left: .5rem; }
+      i{ margin-left: .5em; }
+    }
+  }
+}
+.content-article-columns-actually{
+  // display: flex;
+  justify-content: space-between;
+}
+
+@include mobile{
+  .aside-opinion{
+    width: 100%;
+    .content-aside{
+      margin-bottom: 1.5em;
+    }
+  }
+  .content-article-columns-actually{
+    width: 100%;
+    overflow-x: auto;
+    .article-column{
+      min-width: 210px;
+      > h2{
+        font-size: 1.2rem;
+        margin-bottom: 0;
+      }
     }
   }
 }

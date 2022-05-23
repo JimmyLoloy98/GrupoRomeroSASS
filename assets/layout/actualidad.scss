@@ -1,6 +1,24 @@
-.buttons-top{
+.buttons-top, .buttons-top-actually{
   width: 80%;
   margin: 3.5rem auto 2.8rem;
+  button{
+    width: 10rem;
+    height: 2.5rem;
+    font-size: 1.6rem;
+    border: none;
+    margin-right: 0.5rem;
+    background-color: $gray-text;
+    &:hover{
+      background-color: $gray-container;
+      color: white;
+    }
+  }
+  hr{ margin: 0; }
+}
+.buttons-top-actually{
+  width: 80%;
+  margin: 3.5rem auto 2.8rem;
+  border-bottom: 4px solid $black;
   button{
     width: 10rem;
     height: 2.5rem;

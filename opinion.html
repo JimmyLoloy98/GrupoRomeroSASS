@@ -15,12 +15,33 @@
 
 <body>
 	<header class="rom-header">
+		<button class='button-menu-burguer' type='button'>
+			<input class="menu-btn" type="checkbox" id="menu-btn" />
+			<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+			<ul class="menu">
+				<li><a href="/">inicio</a></li>
+				<li><a href="/news-gr.html">noticias del grupo romero</a></li>
+				<li><a href="/competition.html">competencia</a></li>
+				<li><a href="/sector-1.html">sectores</a></li>
+				<li><a href="/portadas.html">portadas</a></li>
+				<li><a href="/nowTV.html">ahora en tv</a></li>
+				<li><a href="/agenda.html">en agenda</a></li>
+				<li><a href="/opinion.html">opinion</a></li>
+				<li><a href="/actualidad.html">actualidad</a></li>
+			</ul>
+		</button>
+
 		<div class="content-header">
 			<h1>sistema informativo</h1>
 			<div class="logo">
 				<img src="./img/romero-logo-light.png" alt="">
 			</div>
 		</div>
+
+		<a class='login-icon' href="/login.html" target="_blank" rel="noopener noreferrer">
+			<i class="fa-solid fa-user"></i>
+		</a>
+
 		<nav class="rom-nav">
 			<ul>
 				<li><a href="/">inicio</a></li>
@@ -34,6 +55,16 @@
 				<li><a href="/actualidad.html">actualidad</a></li>
 			</ul>
 		</nav>
+
+		<div class="rom-brands">
+			<div>centenario</div>
+			<div>primax</div>
+			<div>palmas</div>
+			<div>tramarsa</div>
+			<div>cania brava</div>
+			<div>fundacion romero</div>
+			<div>centinela</div>
+		</div>
 	</header>
 
 	<main>
@@ -49,37 +80,39 @@
 				<div class="slides-editorials">
 					<a href="#"><i class="fa-solid fa-chevron-left"></i></a>
 
-					<div class="container-card" style='background-color: #fecf1f;'>
-						<span class='time-editorial'>03:15 pm</span>
-						<figure>
-							<img src="./img/romero-logo.png" width='50%'>
-						</figure>
-						<span>
-							<p>EDITORIAL:</p>
-							<p>Una empresa de juegos que no descansa</p>
-						</span>
-					</div>
-
-					<div class="container-card" style='background-color: #9a1d21; color: #fff;'>
-						<span class='time-editorial' style='color: #fff;'>03:15 pm</span>
-						<figure>
-							<img src="./img/romero-logo-light.png" width='50%'>
-						</figure>
-						<span>
-							<p>EDITORIAL:</p>
-							<p>Una empresa de juegos que no descansa</p>
-						</span>
-					</div>
-
-					<div class="container-card" style='background-color: #0062ad; color: #fff;'>
-						<span class='time-editorial' style='color: #fff;'>03:15 pm</span>
-						<figure>
-							<img src="./img/romero-logo-light.png" width='50%'>
-						</figure>
-						<span>
-							<p>EDITORIAL:</p>
-							<p>Una empresa de juegos que no descansa</p>
-						</span>
+					<div class='overflow-horizontal'>
+						<div class="container-card" style='background-color: #fecf1f;'>
+							<span class='time-editorial'>03:15 pm</span>
+							<figure>
+								<img src="./img/comercio-logo.png" width='90%'>
+							</figure>
+							<span>
+								<p>EDITORIAL:</p>
+								<p>Una empresa de juegos que no descansa</p>
+							</span>
+						</div>
+	
+						<div class="container-card" style='background-color: #9a1d21; color: #fff;'>
+							<span class='time-editorial' style='color: #fff;'>03:15 pm</span>
+							<figure>
+								<img src="./img/gestion-logo.png" width='70%'>
+							</figure>
+							<span>
+								<p>EDITORIAL:</p>
+								<p>Una empresa de juegos que no descansa</p>
+							</span>
+						</div>
+	
+						<div class="container-card" style='background-color: #0062ad; color: #fff;'>
+							<span class='time-editorial' style='color: #fff;'>03:15 pm</span>
+							<figure>
+								<img src="./img/peru21-logo.png" width='70%'>
+							</figure>
+							<span>
+								<p>EDITORIAL:</p>
+								<p>Una empresa de juegos que no descansa</p>
+							</span>
+						</div>
 					</div>
 
 					<a href="#"><i class="fa-solid fa-chevron-right"></i></a>

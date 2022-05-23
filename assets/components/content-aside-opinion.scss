@@ -1,24 +1,43 @@
 .wrapper-figure{
   position: relative;
   display: flex;
+  align-items: center;
   margin-top: 1rem;
   margin-left: 4rem;
   margin-right: .6rem;
+  max-width: 100%;
   img{
     position: absolute;
     object-fit: cover;
-    height: 120%;
-    width: 105px;
-    left: -4rem;
+    height: 100px;
+    width: 100px;
+    left: -3.8rem;
     top: -.5rem;
     border-radius: 50%;
   }
   figcaption{
-    padding: 1rem 1rem 1rem 3.5rem;
+    height: 85px;
+    min-width: 100%;
+    padding: .6rem 1rem .6rem 3.5rem;
     border-radius: 20px;
     font-weight: bold;
     span{
       font-weight: 400;
+    }
+  }
+}
+
+@include mobile{
+  .wrapper-figure{
+    img{
+      height: 92px;
+      width: 92px;
+      left: -3.6rem;
+      top: -.7rem;
+    }
+    figcaption{
+      height: 75px;
+      font-size: .9em;
     }
   }
 }
