@@ -1108,8 +1108,79 @@ h1, h2 {
 }
 
 @media screen and (max-width: 568px) {
+  .main-title h1 {
+    font-size: 1.3rem;
+  }
+
+  .buttons-top {
+    width: 90%;
+    margin: 1.5em 0 2em 2em;
+  }
+  .buttons-top button {
+    font-size: 1.2rem;
+  }
+  .buttons-top button i {
+    font-size: 1.4rem;
+  }
+
   .div-container1 {
     width: 90%;
+    display: initial;
+  }
+  .div-container1 .div-left {
+    margin: auto;
+    width: 90%;
+  }
+  .div-container1 .div-left > div {
+    display: flex;
+    gap: 1.5rem;
+  }
+  .div-container1 .div-left > div figure {
+    width: 50%;
+  }
+  .div-container1 .div-left > div > div {
+    width: 50%;
+  }
+  .div-container1 .div-left .time, .div-container1 .div-left .dayli {
+    font-size: 0.7rem;
+  }
+  .div-container1 .div-left h2 {
+    font-size: 1rem;
+  }
+  .div-container1 .div-right {
+    margin: auto;
+    width: 90%;
+  }
+  .div-container1 .div-right .div-left-right {
+    width: 50%;
+  }
+  .div-container1 .div-right .div-left-right .date {
+    font-size: 0.8rem;
+  }
+  .div-container1 .div-right .div-left-left {
+    width: 50%;
+  }
+  .div-container1 .div-right .div-left-left h3 {
+    font-size: 0.9rem;
+  }
+  .div-container1 .div-right .div-left-left .dayli {
+    font-size: 0.7rem;
+  }
+
+  .boton-1 {
+    font-size: 0.7rem;
+  }
+
+  .div-container2 {
+    width: 90%;
+    margin-top: 2rem;
+  }
+
+  .div-1 .time, .div-1 .dayli {
+    font-size: 0.7rem;
+  }
+  .div-1 h2 {
+    font-size: 1rem;
   }
 }
 .container-general {
