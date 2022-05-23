@@ -983,7 +983,7 @@ h1, h2 {
 .buttons-top-actually {
   width: 80%;
   margin: 3.5rem auto 2.8rem;
-  border-bottom: 4px solid #312f30;
+  border-bottom: 4px solid #e5e5e5;
 }
 .buttons-top-actually button {
   width: 10rem;
@@ -1001,6 +1001,56 @@ h1, h2 {
   margin: 0;
 }
 
+.container-actually {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.2rem;
+}
+.container-actually figure {
+  text-align: center;
+  margin: 0;
+  width: 45%;
+}
+.container-actually figure img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+}
+.container-actually .content-top {
+  width: 55%;
+  text-align: justify;
+}
+
+@media screen and (max-width: 568px) {
+  .buttons-top-actually {
+    width: 90%;
+    margin: 1.5em 0 2em 2em;
+  }
+  .buttons-top-actually button {
+    font-size: 1.2rem;
+  }
+  .buttons-top-actually button i {
+    font-size: 1.4rem;
+  }
+
+  .container-actually {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+  .container-actually figure {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .container-actually .content-top {
+    width: 100%;
+    margin-top: 0.6em;
+  }
+}
 .buttons-top {
   width: 85%;
   display: flex;
