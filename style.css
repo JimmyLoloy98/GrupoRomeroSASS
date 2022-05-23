@@ -1276,16 +1276,16 @@ h1, h2 {
   margin-left: 5rem;
   width: 58%;
 }
-.left-article .fecha {
+.left-article .date {
   margin: 1rem 0;
   font-size: 0.9rem;
   color: #4d4d4d;
 }
-.left-article .title h1 {
+.left-article .title-opinion h1 {
   margin-bottom: 1rem;
 }
 .left-article .Author {
-  width: 60%;
+  width: 30rem;
   background: #e5e5e5;
   border-radius: 10px;
   display: flex;
@@ -1306,7 +1306,7 @@ h1, h2 {
   flex-direction: column;
   text-align: justify;
   gap: 0.5rem;
-  width: 80%;
+  width: 75%;
   margin: auto 0;
 }
 .left-article .Author .description h2, .left-article .Author .description p {
@@ -1391,6 +1391,48 @@ h1, h2 {
   font-size: 0.9rem;
 }
 
+@media screen and (max-width: 568px) {
+  .wrapper-main {
+    flex-direction: column;
+  }
+  .wrapper-main .left-article {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2em;
+  }
+  .wrapper-main .left-article .Author {
+    width: 100%;
+    gap: 0.5em;
+  }
+  .wrapper-main .left-article .Author figure {
+    width: 20%;
+  }
+  .wrapper-main .left-article .Author figure img {
+    max-width: 100%;
+  }
+  .wrapper-main .left-article .Author .description h2 {
+    font-size: 1em;
+  }
+  .wrapper-main .left-article .Author .description p {
+    font-size: 0.85em;
+  }
+  .wrapper-main .left-article .container .icons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .wrapper-main .left-article .container .icons a {
+    font-size: 0.85em;
+  }
+  .wrapper-main .left-article .container .icons a i {
+    font-size: 1.3em;
+  }
+  .wrapper-main .section-authors {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2.5em;
+    margin-bottom: 2em;
+  }
+}
 .dayli-author {
   display: flex;
   align-items: center;

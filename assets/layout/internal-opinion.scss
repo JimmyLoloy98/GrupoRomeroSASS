@@ -2,16 +2,16 @@
 	margin: 3rem;
 	margin-left: 5rem;
 	width: 58%;
-	.fecha {
+	.date {
 		margin: 1rem 0;
 		font-size: .9rem;
 		color: $gray-container;
 	}
-	.title h1 {
+	.title-opinion h1 {
 		margin-bottom: 1rem;
 	}
 	.Author {
-		width: 60%;
+		width: 30rem;
 		background: $gray-box;
 		border-radius: 10px;
 		display: flex;
@@ -31,7 +31,7 @@
 			flex-direction: column;
 			text-align: justify;
 			gap: .5rem;
-			width: 80%;
+			width: 75%;
 			margin: auto 0;
 			h2, p{
 				margin: 0;
@@ -116,6 +116,41 @@
 					}
 				}
 			}
+		}
+	}
+}
+
+@include mobile{
+	.wrapper-main{
+		flex-direction: column;
+		.left-article{
+			width: 90%;
+			margin: 0 auto;
+			margin-top: 2em;
+			.Author{
+				width: 100%;
+				gap: .5em;
+				figure{
+					width: 20%;
+					img{ max-width: 100%; }
+				}
+				.description h2{ font-size: 1em; }
+				.description p{ font-size: .85em; }
+			}
+			.container .icons{
+				justify-content: center;
+				flex-wrap: wrap;
+				a{
+					font-size: .85em;
+					i{ font-size: 1.3em; }
+				}
+			}
+		}
+		.section-authors{
+			width: 80%;
+			margin: 0 auto;
+			margin-top: 2.5em;
+			margin-bottom: 2em;
 		}
 	}
 }
