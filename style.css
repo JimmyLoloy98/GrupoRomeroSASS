@@ -711,6 +711,10 @@ h1, h2 {
 
 .dropdown-container2 {
   margin: 1rem 0 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  gap: 1em;
 }
 
 .container-figure {
@@ -719,19 +723,28 @@ h1, h2 {
   column-gap: 40px;
   row-gap: 32px;
 }
+@media screen and (max-width: 568px) {
+  .container-figure {
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    column-gap: 28px;
+    row-gap: 24px;
+  }
+}
 .container-figure figure {
+  box-shadow: 1px 1px 9px 0 rgba(0, 0, 0, 0.25), -1px -1px 9px 0 rgba(0, 0, 0, 0.25);
   background-color: #ffffff;
   padding: 0.5rem 0.3rem;
   border-radius: 8px;
   margin: 0;
 }
 .container-figure figure figcaption {
+  width: 90%;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 1rem;
-  width: 80%;
   margin: 0 auto;
-  margin-top: 0.6rem;
+  margin-top: 0.5rem;
 }
 .container-figure figure figcaption img {
   width: 30%;
@@ -740,7 +753,6 @@ h1, h2 {
   display: flex;
   flex-direction: column;
   gap: 0.2rem;
-  width: 70%;
 }
 .container-figure figure figcaption span p {
   font-size: 0.8rem;
@@ -748,6 +760,28 @@ h1, h2 {
   margin: 0;
 }
 
+@media screen and (max-width: 568px) {
+  .dropdown-container2 {
+    margin: 0 0 1.5em;
+    gap: 1em;
+  }
+
+  .container-figure figure {
+    padding: 0.3em 0.3em;
+    border-radius: 6px;
+  }
+  .container-figure figure figcaption {
+    gap: 0.6em;
+    width: 90%;
+    margin-top: 0.4em;
+  }
+  .container-figure figure figcaption img {
+    width: 30%;
+  }
+  .container-figure figure figcaption span h3 {
+    font-size: 1.1em;
+  }
+}
 .wrapper-covers-display {
   background-color: #4d4d4d;
   border-radius: 12px;
@@ -782,12 +816,37 @@ h1, h2 {
   align-items: center;
   justify-content: center;
   gap: 1.5rem;
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   margin-top: 0.6rem;
 }
 .container-figure-display figure figcaption img {
   width: 12%;
+}
+
+@media screen and (max-width: 568px) {
+  .container-figure-display {
+    justify-content: space-between;
+  }
+  .container-figure-display a {
+    font-size: 1.3rem;
+    padding: 0.25em;
+  }
+  .container-figure-display figure {
+    padding: 0.8em 0.4em 0.6em;
+    border-radius: 10px;
+  }
+  .container-figure-display figure figcaption {
+    width: 90%;
+    margin-top: 0.6rem;
+    gap: 0.85em;
+  }
+  .container-figure-display figure figcaption h2 {
+    font-size: 13px;
+  }
+  .container-figure-display figure figcaption img {
+    width: 30%;
+  }
 }
 .div-container1 .figure-competition {
   width: 50%;
