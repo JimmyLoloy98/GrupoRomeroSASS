@@ -42,3 +42,22 @@
     }
   }
 }
+@include mobile{
+ .container-figure-display{
+  figure{
+    figcaption{
+      width: 150%;
+      margin-top: .6rem;
+      h2{
+        width: 80%;
+        font-size: 13.5px;
+      }
+      img{
+        width: 10%;
+        position: relative;
+        left: 10px;
+      }
+    }
+  }
+  }
+}

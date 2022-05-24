@@ -792,6 +792,21 @@ h1, h2 {
 .container-figure-display figure figcaption img {
   width: 12%;
 }
+@media screen and (max-width: 568px) {
+  .container-figure-display figure figcaption {
+    width: 150%;
+    margin-top: 0.6rem;
+  }
+  .container-figure-display figure figcaption h2 {
+    width: 80%;
+    font-size: 13.5px;
+  }
+  .container-figure-display figure figcaption img {
+    width: 10%;
+    position: relative;
+    left: 10px;
+  }
+}
 .div-container1 .figure-competition {
   width: 50%;
 }
