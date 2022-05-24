@@ -16,29 +16,45 @@
     padding: .6rem;
     font-size: 1.6rem;
   }
-
   figure{
     background-color: $white;
     padding: 1.2rem .4rem .6rem;
     border-radius: 12px;
     margin: 0;
     max-width: 70%;
-    img{
-      max-width: 100%;
-    }
+    img{ max-width: 100%; }
     figcaption{
       display: flex;
       align-items: center;
       justify-content: center;
       gap: 1.5rem;
-      width: 70%;
+      width: 80%;
       margin: 0 auto;
       margin-top: .6rem;
+      img{ width: 12%; }
+    }
+  }
+}
+
+@include mobile{
+ .container-figure-display{
+   justify-content: space-between;
+  a{
+    font-size: 1.3rem;
+    padding: .25em;
+  }
+  figure{
+    padding: .8em .4em .6em;
+    border-radius: 10px;
+    figcaption{
+      width: 90%;
+      margin-top: .6rem;
+      gap: .85em;
+      h2{ font-size: 13px; }
       img{
-        width: 12%;
-      }
-      h2{
+        width: 30%;
       }
     }
+  }
   }
 }

@@ -3,6 +3,12 @@
   grid-template-columns: repeat(auto-fill, minmax(180px,1fr));
   column-gap: 40px;
   row-gap: 32px;
+
+  @include mobile{
+    grid-template-columns: repeat(auto-fill, minmax(130px,1fr));
+    column-gap: 28px;
+    row-gap: 24px;
+  }
 }
 
 .wrapper-covers{
@@ -16,37 +22,56 @@
 
 .dropdown-container2{
   margin: 1rem 0 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  gap: 1em;
 }
 
 .container-figure{
   @include grid-portadas;
-
   figure{
+    box-shadow: 1px 1px 9px 0 rgba(0,0,0,.25),-1px -1px 9px 0 rgba(0,0,0,.25);
     background-color: $white;
     padding: .5rem .3rem;
     border-radius: 8px;
     margin: 0;
     figcaption{
+      width: 90%;
       display: flex;
       align-items: center;
+      justify-content: center;
       gap: 1rem;
-      width: 80%;
       margin: 0 auto;
-      margin-top: .6rem;
-      img{
-        width: 30%;
-      }
+      margin-top: .5rem;
+      img{ width: 30%; }
       span{
         display: flex;
         flex-direction: column;
         gap: .2rem;
-        width: 70%;
         p{
           font-size: .8rem;
           color: $gray-container;
           margin: 0;
         }
       }
+    }
+  }
+}
+@include mobile{
+  .dropdown-container2{
+    margin: 0 0 1.5em;
+    gap: 1em;
+  }
+  .container-figure figure{
+    padding: .3em .3em;
+    border-radius: 6px;
+    figcaption{
+      gap: .6em;
+      width: 90%;
+      margin-top: .4em;
+      img{ width: 30%; }
+      span h3{ font-size: 1.1em; }
     }
   }
 }
