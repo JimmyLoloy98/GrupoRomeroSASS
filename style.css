@@ -745,6 +745,12 @@ h1, h2 {
   margin: 0;
 }
 
+@media screen and (max-width: 568px) {
+  .container-figure {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  }
+}
 .wrapper-covers-display {
   background-color: #4d4d4d;
   border-radius: 12px;
