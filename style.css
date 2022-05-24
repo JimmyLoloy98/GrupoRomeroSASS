@@ -557,7 +557,8 @@ select {
     width: 90%;
   }
   .div-container h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    margin-bottom: 0;
   }
   .div-container .div-content {
     display: initial;
@@ -565,7 +566,8 @@ select {
   .div-container .div-content .div-1 {
     flex-direction: initial;
     width: 100%;
-    gap: 2rem;
+    align-items: center;
+    gap: 1em;
   }
   .div-container .div-content .div-1 img {
     width: 50%;
@@ -574,7 +576,8 @@ select {
     width: 50%;
   }
   .div-container .div-content .div-1 > div h3 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    text-align: start;
   }
   .div-container .div-content .div-1 > div span {
     font-size: 0.8rem;
