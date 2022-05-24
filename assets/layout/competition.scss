@@ -1,9 +1,26 @@
-.div-container1{
+.div-container-1{
+  width: 85%;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
   .figure-competition{
     width: 50%;
+    margin: 0 auto;
+    img{
+      max-width: 100%;
+      max-height: 100%;
+      border-radius: 0.5rem;
+    }
   }
   .content-competition{
     width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .content-top{
+
+    }
   } 
 }
 
@@ -44,8 +61,9 @@
       font-size: 1.8rem;
     }
   }
-  .div-container1{
+  .div-container-1{
     margin-top: 1.5rem;
+    gap: 1.5rem;
     .content-competition{
       margin: 0;
       width: 50%;
@@ -59,7 +77,7 @@
   .boton-1{
     margin-top: 0rem;
     a{
-      font-size: 0.8rem;
+      font-size: 0.7rem;
     }
   }
   .tagline{
@@ -68,11 +86,8 @@
       font-size: 0.7rem;
     }
   }
-  .time{
+  .time, .dayli{
     font-size: 0.7rem;
-  }
-  .dayli{
-    font-size: 0.8rem;
   }
   .div-container2{
     margin-top: 1rem;

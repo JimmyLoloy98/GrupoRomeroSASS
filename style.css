@@ -789,13 +789,28 @@ h1, h2 {
 .container-figure-display figure figcaption img {
   width: 12%;
 }
-.div-container1 .figure-competition {
-  width: 50%;
+.div-container-1 {
+  width: 85%;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
 }
-.div-container1 .content-competition {
+.div-container-1 .figure-competition {
   width: 50%;
+  margin: 0 auto;
 }
-
+.div-container-1 .figure-competition img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 0.5rem;
+}
+.div-container-1 .content-competition {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .tagline {
   background-color: #9a1d21;
   color: white;
@@ -834,14 +849,15 @@ h1, h2 {
     font-size: 1.8rem;
   }
 
-  .div-container1 {
+  .div-container-1 {
     margin-top: 1.5rem;
+    gap: 1.5rem;
   }
-  .div-container1 .content-competition {
+  .div-container-1 .content-competition {
     margin: 0;
     width: 50%;
   }
-  .div-container1 .content-competition h1 {
+  .div-container-1 .content-competition h1 {
     font-size: 1.1rem;
     margin-top: 0.3rem;
     margin-bottom: 0.3rem;
@@ -851,7 +867,7 @@ h1, h2 {
     margin-top: 0rem;
   }
   .boton-1 a {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 
   .tagline {
@@ -861,12 +877,8 @@ h1, h2 {
     font-size: 0.7rem;
   }
 
-  .time {
+  .time, .dayli {
     font-size: 0.7rem;
-  }
-
-  .dayli {
-    font-size: 0.8rem;
   }
 
   .div-container2 {
