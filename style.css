@@ -816,26 +816,36 @@ h1, h2 {
   align-items: center;
   justify-content: center;
   gap: 1.5rem;
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   margin-top: 0.6rem;
 }
 .container-figure-display figure figcaption img {
   width: 12%;
 }
+
 @media screen and (max-width: 568px) {
+  .container-figure-display {
+    justify-content: space-between;
+  }
+  .container-figure-display a {
+    font-size: 1.3rem;
+    padding: 0.25em;
+  }
+  .container-figure-display figure {
+    padding: 0.8em 0.4em 0.6em;
+    border-radius: 10px;
+  }
   .container-figure-display figure figcaption {
-    width: 150%;
+    width: 90%;
     margin-top: 0.6rem;
+    gap: 0.85em;
   }
   .container-figure-display figure figcaption h2 {
-    width: 80%;
-    font-size: 13.5px;
+    font-size: 13px;
   }
   .container-figure-display figure figcaption img {
-    width: 10%;
-    position: relative;
-    left: 10px;
+    width: 30%;
   }
 }
 .div-container1 .figure-competition {
