@@ -1,50 +1,59 @@
 .wrapper-dark{
   background-color: $black;
   margin-bottom: -3rem;
-}
-
-.section-container-video{
-  video{
-    border-radius: 10px;
-    width: 50%;
-    height: auto;
-  }
-  .content-top{
-    color: $white;
-    .boton-1{
-      margin-top: 1.5rem;
+  margin-top: 2.5em;
+  padding-top: 2.5rem;
+  .section-container-video{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    video{
+      border-radius: 10px;
+      width: 50%;
+      height: auto;
+    }
+    .content-top{
+      width: 50%;
       color: $white;
-      a{
-        color: $gray-box;
+      .boton-1{
+        margin-top: 1.5rem;
+        color: $white;
+        a{
+          color: $gray-box;
+        }
       }
     }
   }
-}
-
-.wrapper-section1-dark{
-  width: 85%;
-  .content .div-right{
-    video{
-      border-radius: 10px;
-      width: 100%;
-      height: auto;
+  .wrapper-section1-dark{
+    width: 85%;
+    .content .div-right{
+      video{
+        border-radius: 10px;
+        width: 100%;
+        height: auto;
+      }
     }
-  }
-  .div-left{
-    color: $white;
-    .time{
-      color: $gray-box;
-    }
-    .boton-1{
+    .content .div-left{
       color: $white;
-      a{
+      .time{
         color: $gray-box;
+      }
+      .boton-1{
+        margin: 1em 0;
+        color: $white;
+        a{
+          color: $gray-box;
+        }
       }
     }
   }
 }
 
 .div-below-dark{
+  padding-top: 1.5em;
   div {
     padding-bottom: 3rem;
     a{
@@ -52,4 +61,34 @@
       color: $white;
     }
   }
+}
+
+@include mobile{
+  .wrapper-dark{
+    margin-top: 1.5em;
+    padding-top: 1.5em;
+    .section-container-video{
+      width: 90%;
+      display: block;
+      video{ width: 100%; }
+      .content-top{
+        width: 100%;
+        h2{ font-size: 1em; }
+        span{ font-size: .85em; }
+      }
+    }
+    .wrapper-section1-dark{
+      width: 90%;
+      .content{
+        display: block;
+        .div-right{ width: 80%; }
+        .div-left{
+          width: 100%;
+          margin-top: .6em;
+          h2{ font-size: 1em; }
+        }
+      }
+    }
+  }
+  .div-below-dark{ padding-top: .5em; }
 }
