@@ -2121,7 +2121,7 @@ h1, h2 {
 }
 .rom-last-news .slider-news figcaption {
   position: absolute;
-  top: 62.8%;
+  bottom: 50px;
   border-radius: 0 20px 0 20px;
   max-width: 80%;
   background-color: #312f30;
@@ -2173,7 +2173,7 @@ h1, h2 {
   }
   .rom-last-news .slider-news figcaption {
     max-width: 80%;
-    top: 8.85em;
+    bottom: 50px;
     border-radius: 0 10px 0 10px;
     font-size: 1.4em;
   }
